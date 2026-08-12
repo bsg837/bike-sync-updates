@@ -1,0 +1,9 @@
+{
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.0/Bike-Sync-2.2.0-Automatic-Update.zip",
+  "minimumMacOS" : "13.0",
+  "packageSignature" : "Y4RD4snx2tOB1+vms//Q9+nEvyO2JjQm3rNetXJLwsQAedqThzQ46oYMbYbaddjJryJgFjO9VLhO6k40OiCnCw==",
+  "publishedAt" : "2026-08-12T16:46:09.848Z",
+  "releaseNotes" : "Bike Sync 2.2.0 activates secure automatic updates.\n\n- Verified releases now install automatically when the preference is enabled.\n- Bike Sync checks at startup and every six hours while running, and retries after network failures.\n- The previous app remains available as a backup if an update cannot be completed.\n- The app now displays its installed version, current release notes, update status, and cumulative update log.\n- The 2.1.2 cache correction is included, so a calendar-only refresh cannot hide fuller Intervals.icu training data.",
+  "sha256" : "3293002b427e939f78f853472fa291adfd27b75631cf0124204b977cf95ac650",
+  "version" : "2.2.0"
+}
