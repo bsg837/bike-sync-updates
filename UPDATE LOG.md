@@ -2,6 +2,12 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.4 — August 12, 2026
+
+- Baselined the complete existing private request folder during the first universal sync.
+- Prevented older files omitted from a stale legacy ledger from being processed after an upgrade.
+- Limited processing to requests added or changed after the safe baseline.
+
 ## 2.2.3 — August 12, 2026
 
 - Allowed safety-checked description-only corrections to legacy training events created by earlier Bike Sync versions.
