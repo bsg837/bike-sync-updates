@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.0/Bike-Sync-2.2.0-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.1/Bike-Sync-2.2.1-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "Y4RD4snx2tOB1+vms//Q9+nEvyO2JjQm3rNetXJLwsQAedqThzQ46oYMbYbaddjJryJgFjO9VLhO6k40OiCnCw==",
-  "publishedAt" : "2026-08-12T16:46:09.848Z",
-  "releaseNotes" : "Bike Sync 2.2.0 activates secure automatic updates.\n\n- Verified releases now install automatically when the preference is enabled.\n- Bike Sync checks at startup and every six hours while running, and retries after network failures.\n- The previous app remains available as a backup if an update cannot be completed.\n- The app now displays its installed version, current release notes, update status, and cumulative update log.\n- The 2.1.2 cache correction is included, so a calendar-only refresh cannot hide fuller Intervals.icu training data.",
-  "sha256" : "3293002b427e939f78f853472fa291adfd27b75631cf0124204b977cf95ac650",
-  "version" : "2.2.0"
+  "packageSignature" : "pwaohF8pDiZKbb3B0sq4svTrjZSsCTRKtmHqeUq+O83CNNIzbXDzmVap3c9BLzPuUc7RbGg5Iy+FmIElQmFgCQ==",
+  "publishedAt" : "2026-08-13T02:30:07.402Z",
+  "releaseNotes" : "Bike Sync 2.2.1\n\n- Expanded workouts now show their complete description instead of stopping after eight lines.\n- Long descriptions use the menu's existing vertical scrolling.\n- Recognized strength and mobility exercises now include one-click animated demonstration links inside Bike Sync.\n- Existing connections saved by earlier Bike Sync versions are recognized after updating.\n- An explicitly approved managed workout can receive description-only corrections while manual events remain protected.",
+  "sha256" : "2727c92742a6ca777c8a47d00ac395a10444de0a5b34493fd0902afe10b241d3",
+  "version" : "2.2.1"
 }

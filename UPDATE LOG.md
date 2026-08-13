@@ -2,6 +2,13 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.1 — August 12, 2026
+
+- Expanded workout and optional-event cards now show their complete text in the scrollable menu.
+- Added one-click animated demonstrations for recognized strength and mobility exercises.
+- Restored connections saved under earlier Bike Sync credential labels.
+- Added a safety-checked description-only correction for Bike Sync-managed workouts; manual Intervals.icu events remain protected.
+
 ## 2.2.0 — August 12, 2026
 
 - Activated the signed public update feed.
