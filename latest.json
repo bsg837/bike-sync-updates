@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.3/Bike-Sync-2.2.3-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.4/Bike-Sync-2.2.4-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "jBJ28AHIbpZ7iMuXm8NAIveRaRpeNnzZRc5P5U9lUZFzt25jpTdHjrjpbFaWWV0kOLU1/lm1EQ0BhXgmWzhPBA==",
-  "publishedAt" : "2026-08-13T03:12:21.878Z",
-  "releaseNotes" : "Bike Sync 2.2.3\n\n- Description-only corrections now recognize legacy training events created and managed by earlier Bike Sync versions.\n- Bike Sync still verifies the exact event ID, date, name, and managed identifier before changing only the description.\n- Manual Intervals.icu events remain protected.\n- Includes the complete workout text, animated exercise links, credential recognition, and request-ledger migration from 2.2.1 and 2.2.2.",
-  "sha256" : "bd91cd24c908075b56c2a5886b22a533b8126071679da0f06840bc5d15738f50",
-  "version" : "2.2.3"
+  "packageSignature" : "mWX3VEbhzsqdEvbKEHk8M+n5bBPsQi21vkbEtl0TV17lrjSC5zwJdWvFRbIYXIg/h+TO6OOyebrQ4nWzCq1mAA==",
+  "publishedAt" : "2026-08-13T03:33:17.171Z",
+  "releaseNotes" : "Bike Sync 2.2.4\n\n- The first universal coaching sync now baselines every request already present in the private folder.\n- Older files omitted from a stale legacy ledger cannot be processed as new approvals after an upgrade.\n- Only requests added or changed after that safe baseline are eligible for processing.\n- Includes the complete workout display, animated exercise links, legacy credential recognition, and safety-checked description corrections from 2.2.1–2.2.3.",
+  "sha256" : "6e50e341621da3a5fd50ea77a2dcfe6d32f459fe5f1c9b5e4645b4b20b303818",
+  "version" : "2.2.4"
 }
