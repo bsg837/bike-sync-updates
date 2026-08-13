@@ -2,6 +2,11 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.3 — August 12, 2026
+
+- Allowed safety-checked description-only corrections to legacy training events created by earlier Bike Sync versions.
+- Continued to protect manual events by verifying the exact event ID, date, name, and managed identifier.
+
 ## 2.2.2 — August 12, 2026
 
 - Migrated earlier Bike Sync request history before checking for new coaching requests.

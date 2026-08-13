@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.2/Bike-Sync-2.2.2-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.3/Bike-Sync-2.2.3-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "xyF0C2dvwnvrzULL719ZMDXIEBwRxISP/EGNfVls/ZFdwWiE7LgpYBt1794ATcuPY0dnLT7EFhFbdoYGab76DA==",
-  "publishedAt" : "2026-08-13T02:56:09.537Z",
-  "releaseNotes" : "Bike Sync 2.2.2\n\n- Migrates earlier Bike Sync request history before checking the private coaching connection for new files.\n- Historical coaching requests can no longer be mistaken for newly approved calendar changes after an upgrade.\n- Includes the full workout text, animated exercise links, and legacy credential recognition introduced in 2.2.1.",
-  "sha256" : "9057d132a12eece8a3f79672ffd0f64a6b3b559656c9b04b9770972afbfe8871",
-  "version" : "2.2.2"
+  "packageSignature" : "jBJ28AHIbpZ7iMuXm8NAIveRaRpeNnzZRc5P5U9lUZFzt25jpTdHjrjpbFaWWV0kOLU1/lm1EQ0BhXgmWzhPBA==",
+  "publishedAt" : "2026-08-13T03:12:21.878Z",
+  "releaseNotes" : "Bike Sync 2.2.3\n\n- Description-only corrections now recognize legacy training events created and managed by earlier Bike Sync versions.\n- Bike Sync still verifies the exact event ID, date, name, and managed identifier before changing only the description.\n- Manual Intervals.icu events remain protected.\n- Includes the complete workout text, animated exercise links, credential recognition, and request-ledger migration from 2.2.1 and 2.2.2.",
+  "sha256" : "bd91cd24c908075b56c2a5886b22a533b8126071679da0f06840bc5d15738f50",
+  "version" : "2.2.3"
 }
