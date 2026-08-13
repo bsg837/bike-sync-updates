@@ -2,6 +2,11 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.2 — August 12, 2026
+
+- Migrated earlier Bike Sync request history before checking for new coaching requests.
+- Prevented historical request files from being processed as newly approved calendar changes after an upgrade.
+
 ## 2.2.1 — August 12, 2026
 
 - Expanded workout and optional-event cards now show their complete text in the scrollable menu.

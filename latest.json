@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.1/Bike-Sync-2.2.1-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.2/Bike-Sync-2.2.2-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "pwaohF8pDiZKbb3B0sq4svTrjZSsCTRKtmHqeUq+O83CNNIzbXDzmVap3c9BLzPuUc7RbGg5Iy+FmIElQmFgCQ==",
-  "publishedAt" : "2026-08-13T02:30:07.402Z",
-  "releaseNotes" : "Bike Sync 2.2.1\n\n- Expanded workouts now show their complete description instead of stopping after eight lines.\n- Long descriptions use the menu's existing vertical scrolling.\n- Recognized strength and mobility exercises now include one-click animated demonstration links inside Bike Sync.\n- Existing connections saved by earlier Bike Sync versions are recognized after updating.\n- An explicitly approved managed workout can receive description-only corrections while manual events remain protected.",
-  "sha256" : "2727c92742a6ca777c8a47d00ac395a10444de0a5b34493fd0902afe10b241d3",
-  "version" : "2.2.1"
+  "packageSignature" : "xyF0C2dvwnvrzULL719ZMDXIEBwRxISP/EGNfVls/ZFdwWiE7LgpYBt1794ATcuPY0dnLT7EFhFbdoYGab76DA==",
+  "publishedAt" : "2026-08-13T02:56:09.537Z",
+  "releaseNotes" : "Bike Sync 2.2.2\n\n- Migrates earlier Bike Sync request history before checking the private coaching connection for new files.\n- Historical coaching requests can no longer be mistaken for newly approved calendar changes after an upgrade.\n- Includes the full workout text, animated exercise links, and legacy credential recognition introduced in 2.2.1.",
+  "sha256" : "9057d132a12eece8a3f79672ffd0f64a6b3b559656c9b04b9770972afbfe8871",
+  "version" : "2.2.2"
 }
