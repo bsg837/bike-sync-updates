@@ -2,6 +2,26 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.7 — August 14, 2026
+
+- Made targeted duplicate deletion verify the exact Bike-Sync-owned event ID, date, title, and ownership before deletion.
+- Prevented a targeted cleanup from deleting every managed workout on the same date.
+- Started the first private coaching synchronization directly during application initialization.
+- Included the Intervals date-and-time, launch-time synchronization, safe replacement, and calendar deduplication fixes developed in 2.2.5–2.2.6.
+
+## 2.2.6 — August 14, 2026
+
+- Sent full local date-and-time values for Intervals.icu coaching, health, weather-replacement, and copied calendar events.
+- Started private coaching synchronization as soon as Bike Sync launches, without requiring the menu to be opened.
+- Replaced older Bike-Sync-owned workouts while preserving manual races and subscribed calendar events.
+- Restored recognition of Bradley's original legacy Intervals.icu Keychain entry.
+
+## 2.2.5 — August 12, 2026
+
+- Removed duplicate calendar-subscription rows that could accumulate across repeated refreshes.
+- Combined equivalent subscribed and Intervals-backed calendar rows while retaining genuinely distinct rides.
+- Preserved one cached event during a temporary calendar outage and replaced it on the next successful refresh.
+
 ## 2.2.4 — August 12, 2026
 
 - Baselined the complete existing private request folder during the first universal sync.

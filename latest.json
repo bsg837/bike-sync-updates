@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.4/Bike-Sync-2.2.4-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.7/Bike-Sync-2.2.7-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "mWX3VEbhzsqdEvbKEHk8M+n5bBPsQi21vkbEtl0TV17lrjSC5zwJdWvFRbIYXIg/h+TO6OOyebrQ4nWzCq1mAA==",
-  "publishedAt" : "2026-08-13T03:33:17.171Z",
-  "releaseNotes" : "Bike Sync 2.2.4\n\n- The first universal coaching sync now baselines every request already present in the private folder.\n- Older files omitted from a stale legacy ledger cannot be processed as new approvals after an upgrade.\n- Only requests added or changed after that safe baseline are eligible for processing.\n- Includes the complete workout display, animated exercise links, legacy credential recognition, and safety-checked description corrections from 2.2.1–2.2.3.",
-  "sha256" : "6e50e341621da3a5fd50ea77a2dcfe6d32f459fe5f1c9b5e4645b4b20b303818",
-  "version" : "2.2.4"
+  "packageSignature" : "02v/sSOmHr4+49lupDU932vWUxBlzloxG6RcrgACj0LAll89sraHxo8/OzjQ5AH/UWhjUCcqjdGUM4ExCkuVBA==",
+  "publishedAt" : "2026-08-14T18:10:06.719Z",
+  "releaseNotes" : "Bike Sync 2.2.7\n\n- Makes duplicate cleanup target the exact approved Bike-Sync-owned event instead of every managed workout on the date.\n- Verifies the target event ID, date, title, and ownership before deleting it.\n- Starts the first private coaching synchronization directly when the app initializes.\n- Includes the Intervals date-and-time, launch-time synchronization, and safe replacement fixes from 2.2.6.",
+  "sha256" : "4ee8ecd5d1bc90b5af24cc0f8354ae81efd8d10ff5445bf640d467551e9ea5c7",
+  "version" : "2.2.7"
 }
