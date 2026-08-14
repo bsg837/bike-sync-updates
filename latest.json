@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.7/Bike-Sync-2.2.7-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.8/Bike-Sync-2.2.8-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "02v/sSOmHr4+49lupDU932vWUxBlzloxG6RcrgACj0LAll89sraHxo8/OzjQ5AH/UWhjUCcqjdGUM4ExCkuVBA==",
-  "publishedAt" : "2026-08-14T18:10:06.719Z",
-  "releaseNotes" : "Bike Sync 2.2.7\n\n- Makes duplicate cleanup target the exact approved Bike-Sync-owned event instead of every managed workout on the date.\n- Verifies the target event ID, date, title, and ownership before deleting it.\n- Starts the first private coaching synchronization directly when the app initializes.\n- Includes the Intervals date-and-time, launch-time synchronization, and safe replacement fixes from 2.2.6.",
-  "sha256" : "4ee8ecd5d1bc90b5af24cc0f8354ae81efd8d10ff5445bf640d467551e9ea5c7",
-  "version" : "2.2.7"
+  "packageSignature" : "6PDuKv91RHf4Y5F+aaQuk/IIouCk9PgdwIsuI2I8/vjWQ5c362w1S87EbNRFNCM3IyV74hykip8D0n6TJqlWDQ==",
+  "publishedAt" : "2026-08-14T21:59:47.893Z",
+  "releaseNotes" : "Bike Sync 2.2.8\n\n- Shows a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.\n- Recognizes safe Strava and Intervals.icu prefixes while still requiring the same date and a compatible duration.\n- Keeps the completed workout in today's list after its scheduled time passes.\n- Marks each incomplete workout scheduled for today with a matching red right-pointing indicator and keeps overdue workouts visible through the day.\n- Avoids repeating the same workout in a separate completed section; unmatched activities remain visible there.\n- Includes an accessibility label so VoiceOver announces the workout as completed.",
+  "sha256" : "f294f452f53f97345229d2ead356dab6fe7bff503d480a0a9e3d442501268c8b",
+  "version" : "2.2.8"
 }

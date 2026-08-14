@@ -2,6 +2,14 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.8 — August 14, 2026
+
+- Showed a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.
+- Recognized safe Strava and Intervals.icu title prefixes while still requiring the same date and compatible duration.
+- Kept completed and overdue incomplete workouts visible in today's list.
+- Marked incomplete workouts scheduled for today with a matching red right-pointing indicator.
+- Avoided repeating a matched workout in the separate completed-activity section.
+
 ## 2.2.7 — August 14, 2026
 
 - Made targeted duplicate deletion verify the exact Bike-Sync-owned event ID, date, title, and ownership before deletion.
