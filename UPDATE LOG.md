@@ -2,6 +2,12 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.3.1 — August 15, 2026
+
+- Refreshed the private coaching-instruction document during ordinary synchronization when an installed update contains newer rules.
+- Gave existing connections the same athlete-scoping, data-completeness, false-confidence, and calendar-confirmation safeguards as new connections without requiring setup again.
+- Avoided repository churn by writing the instruction document only when its exact contents changed.
+
 ## 2.3.0 — August 15, 2026
 
 - Added athlete-scoped cycling FTP, weight, power zones, selected power-curve points, up to 200 recent activity summaries, and recent wellness trends to private coaching reports.

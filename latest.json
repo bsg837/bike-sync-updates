@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.3.0/Bike-Sync-2.3.0-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.3.1/Bike-Sync-2.3.1-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "H8lNXhEllxsRagVwnDdz8KRdU+X7qLHLsyi66q1Saqj8Hd0XwIEofwVCqyosiCLSrNNtk64/41EZLAvrB0JfBQ==",
-  "publishedAt" : "2026-08-15T20:48:21.031Z",
-  "releaseNotes" : "Bike Sync 2.3.0\n\n- Bike Coach can now receive the connected athlete's cycling FTP, weight, power zones, selected 42-day, one-year, and all-time power-curve points, up to 200 recent activity summaries, and recent wellness trends.\n- Every report names the one athlete it represents and labels detailed Intervals.icu coverage as complete, partial, or disabled.\n- Failed power-curve or recent-activity retrieval now makes the report partial and prevents Bike Coach from presenting generic targets as confidently individualized.\n- Coach instructions now require configured FTP, modeled FTP, historical best power, recovery, and current data coverage to be distinguished explicitly.\n- Future planned-load projections are kept out of the current recovery status and wellness history.\n- Accepted coaching calendar changes are immediately reread from Intervals.icu and confirmed alongside their exact request filenames.\n- A new privacy control can disable detailed performance and recovery sharing. Credentials, keys, raw workout files, and GPS tracks are never included.",
-  "sha256" : "fc0c2eeec0197ba3aba674d3de1006df2969ec81ae8474f6d9b561d6db2a2a0c",
-  "version" : "2.3.0"
+  "packageSignature" : "pW0lTPx/xT+cZPT/HVSEmmN/n10iwlPJlraSGoNkzcPUIzAwKsXJ8molx+sv8PJwMXsbLcF/j04nt/MDemZGBQ==",
+  "publishedAt" : "2026-08-15T21:04:06.351Z",
+  "releaseNotes" : "Bike Sync 2.3.1\n\n- Existing private coaching connections now receive newer coaching-safety instructions during ordinary synchronization; setup does not need to be repeated.\n- The refreshed rules require Bike Coach to verify report freshness and completeness, distinguish configured FTP from modeled FTP and historical power, and avoid presenting estimates as confidently individualized when evidence is missing.\n- The rules also prevent one connected athlete's data from being reused for another athlete and require an exact applied-request filename plus the returned Intervals.icu event before a calendar update may be called successful.\n- The document is written only when its contents changed, avoiding unnecessary private-repository updates.",
+  "sha256" : "3ed6e74b0cf847673c690fb7d64493ab438400514a84e7458e1be8841198ce7f",
+  "version" : "2.3.1"
 }
