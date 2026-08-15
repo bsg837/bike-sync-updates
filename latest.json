@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.8/Bike-Sync-2.2.8-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.9/Bike-Sync-2.2.9-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "6PDuKv91RHf4Y5F+aaQuk/IIouCk9PgdwIsuI2I8/vjWQ5c362w1S87EbNRFNCM3IyV74hykip8D0n6TJqlWDQ==",
-  "publishedAt" : "2026-08-14T21:59:47.893Z",
-  "releaseNotes" : "Bike Sync 2.2.8\n\n- Shows a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.\n- Recognizes safe Strava and Intervals.icu prefixes while still requiring the same date and a compatible duration.\n- Keeps the completed workout in today's list after its scheduled time passes.\n- Marks each incomplete workout scheduled for today with a matching red right-pointing indicator and keeps overdue workouts visible through the day.\n- Avoids repeating the same workout in a separate completed section; unmatched activities remain visible there.\n- Includes an accessibility label so VoiceOver announces the workout as completed.",
-  "sha256" : "f294f452f53f97345229d2ead356dab6fe7bff503d480a0a9e3d442501268c8b",
-  "version" : "2.2.8"
+  "packageSignature" : "YfVQgd9QCT8eFqiwiQGfh3gUdgXxk5hIeniLegVKs2SRfxqLPurbfZ250WTeQV4g5+Q+62LfS3mxsuCtLoiLCQ==",
+  "publishedAt" : "2026-08-15T01:27:44.198Z",
+  "releaseNotes" : "Bike Sync 2.2.9\n\n- Hides the midnight placeholder used for workouts without a confirmed start time.\n- Shows a time beside a workout only when the event has a confirmed start time or a matching activity supplies a completion time.\n- Uses elapsed activity time when available to calculate when a completed workout ended.",
+  "sha256" : "a7c0d86e13a25885dc72e66087ab0ac85d22d342fbc8fda3921391465ac54e2d",
+  "version" : "2.2.9"
 }

@@ -2,6 +2,12 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.2.9 — August 14, 2026
+
+- Hid the midnight placeholder used for workouts without a confirmed start time.
+- Showed a time beside a workout only when the event has a confirmed start time or a matching activity supplies a completion time.
+- Used elapsed activity time when available to calculate when a completed workout ended.
+
 ## 2.2.8 — August 14, 2026
 
 - Showed a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.
