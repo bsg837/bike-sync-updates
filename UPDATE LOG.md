@@ -2,6 +2,15 @@
 
 Every publicly distributed update is recorded here when its signed package and manifest are published.
 
+## 2.3.0 — August 15, 2026
+
+- Added athlete-scoped cycling FTP, weight, power zones, selected power-curve points, up to 200 recent activity summaries, and recent wellness trends to private coaching reports.
+- Added explicit complete, partial, and disabled states for detailed Intervals.icu coverage and made missing power curves or activity history set `sync_ok` to false.
+- Required Bike Coach to distinguish configured FTP, modeled FTP, and historical best power and never reuse one connected athlete's data for another person.
+- Kept future planned-load projections out of current recovery status and wellness history.
+- Added an immediate Intervals.icu reread after coaching calendar writes so applied request filenames and returned replacement events are confirmed together.
+- Added a privacy control for detailed coaching data while continuing to exclude credentials, keys, raw workout files, and GPS tracks.
+
 ## 2.2.9 — August 14, 2026
 
 - Hid the midnight placeholder used for workouts without a confirmed start time.

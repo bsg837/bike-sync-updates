@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.2.9/Bike-Sync-2.2.9-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.3.0/Bike-Sync-2.3.0-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "YfVQgd9QCT8eFqiwiQGfh3gUdgXxk5hIeniLegVKs2SRfxqLPurbfZ250WTeQV4g5+Q+62LfS3mxsuCtLoiLCQ==",
-  "publishedAt" : "2026-08-15T01:27:44.198Z",
-  "releaseNotes" : "Bike Sync 2.2.9\n\n- Hides the midnight placeholder used for workouts without a confirmed start time.\n- Shows a time beside a workout only when the event has a confirmed start time or a matching activity supplies a completion time.\n- Uses elapsed activity time when available to calculate when a completed workout ended.",
-  "sha256" : "a7c0d86e13a25885dc72e66087ab0ac85d22d342fbc8fda3921391465ac54e2d",
-  "version" : "2.2.9"
+  "packageSignature" : "H8lNXhEllxsRagVwnDdz8KRdU+X7qLHLsyi66q1Saqj8Hd0XwIEofwVCqyosiCLSrNNtk64/41EZLAvrB0JfBQ==",
+  "publishedAt" : "2026-08-15T20:48:21.031Z",
+  "releaseNotes" : "Bike Sync 2.3.0\n\n- Bike Coach can now receive the connected athlete's cycling FTP, weight, power zones, selected 42-day, one-year, and all-time power-curve points, up to 200 recent activity summaries, and recent wellness trends.\n- Every report names the one athlete it represents and labels detailed Intervals.icu coverage as complete, partial, or disabled.\n- Failed power-curve or recent-activity retrieval now makes the report partial and prevents Bike Coach from presenting generic targets as confidently individualized.\n- Coach instructions now require configured FTP, modeled FTP, historical best power, recovery, and current data coverage to be distinguished explicitly.\n- Future planned-load projections are kept out of the current recovery status and wellness history.\n- Accepted coaching calendar changes are immediately reread from Intervals.icu and confirmed alongside their exact request filenames.\n- A new privacy control can disable detailed performance and recovery sharing. Credentials, keys, raw workout files, and GPS tracks are never included.",
+  "sha256" : "fc0c2eeec0197ba3aba674d3de1006df2969ec81ae8474f6d9b561d6db2a2a0c",
+  "version" : "2.3.0"
 }
