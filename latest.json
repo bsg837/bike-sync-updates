@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.2/Bike-Sync-2.4.2-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.3/Bike-Sync-2.4.3-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "5TOccn6RWkKD+m3+I3lU1vT5dwlwVbUzOVtu4QZgVnLtEGYnDD0npftgpOp+bRg4Kpi+5m7ClbosYNacK/CwBQ==",
-  "publishedAt" : "2026-08-16T10:25:22.743Z",
-  "releaseNotes" : "Bike Sync 2.4.2\n\n- Automatically repairs duplicate Bike Sync-managed calendar workouts before load and recovery are calculated.\n- Removes orphaned weather replacements when no real matching outdoor workout exists.\n- Allows only one managed weather replacement per ride and date.\n- Preserves manual events, subscribed calendar notes, races, and third-party activities during repair.\n- Reloads Intervals.icu after cleanup so false planned load no longer distorts Fatigue or Form.",
-  "sha256" : "5e6b889974ee875bea170a557c4e212c2fad4e305363f590f4378bfd7c61405f",
-  "version" : "2.4.2"
+  "packageSignature" : "eJK6Y8rWRvefjg0hHW9bvLC9mpra1lAv+0Xsr+KXMtAwfV2DQ0O5JjGlDmYpOIw7vzaFb5XXHcHH8WKM/kJKCQ==",
+  "publishedAt" : "2026-08-16T21:25:30.131Z",
+  "releaseNotes" : "Bike Sync 2.4.3\n\n- Bike Coach can now discover athletes you follow or coach in Intervals.icu and request a named athlete's profile, power curves, activities, intervals, calendar, and wellness data.\n- Access to every athlete other than the connected account owner is strictly read-only.\n- Every result carries the selected athlete's ID and name to prevent cross-athlete analysis mistakes.\n- Intervals.icu's restriction on forwarding coached athletes' Strava-sourced activities is disclosed as unavailable data rather than filled with estimates.",
+  "sha256" : "55c7f1413ebf6d5c71d6b4775b8051eb737d875ac97c477ce40efeec9d219d7e",
+  "version" : "2.4.3"
 }

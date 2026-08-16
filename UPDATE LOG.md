@@ -1,5 +1,11 @@
 Bike Sync update log
 
+2.4.3 — August 16, 2026
+- Lets Bike Coach list athletes the Intervals.icu account follows or coaches and request an explicitly selected athlete's profile, power curves, activities, analyzed intervals, calendar, and wellness data.
+- Keeps all secondary-athlete access read-only and verifies the athlete ID against Intervals.icu before returning any data.
+- Repeats the selected athlete's ID and name in every result so one rider's FTP, recovery, or power history cannot be silently applied to another.
+- Clearly reports Intervals.icu's Strava forwarding restriction instead of estimating missing coached-athlete records.
+
 2.4.2 — August 16, 2026
 - Repairs existing duplicate Bike Sync-managed calendar workouts automatically before Fitness, Fatigue, Form, ramp rate, or coaching data are read.
 - Removes every managed weather replacement when the associated outdoor ride is only an optional note, subscription entry, race, or otherwise absent from the planned workout calendar.
