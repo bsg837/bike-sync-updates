@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.1/Bike-Sync-2.4.1-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.2/Bike-Sync-2.4.2-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "ZItSxXxCvbVtL+roZsZjn086KVFLEKpiuif6rXZ8YP01BILvqiiksqU+CyRDFBjxAYG0+smy2LCJYIw9ncWiDA==",
-  "publishedAt" : "2026-08-16T03:36:37.465Z",
-  "releaseNotes" : "Bike Sync 2.4.1\n\n- Prevents calendar-only subscriptions from becoming device workouts. They remain visible in Intervals.icu as notes.\n- Refuses to confirm a cycling workout unless Intervals.icu returns a real structured workout with a nonzero duration and executable steps.\n- Automatically rolls back a blank newly created workout and restores the previous description after a failed update, preventing 0:00 files from reaching a bike computer.\n- Validates recovery and weather-substitution files before removing the cycling workout they replace.\n- Requires private coaching requests to use native Intervals.icu workout-builder syntax for every executable cycling step.",
-  "sha256" : "cac54b75b4c969d608cdbba3e8046222cbaa8020ad90ed68d0e0c906bef39902",
-  "version" : "2.4.1"
+  "packageSignature" : "5TOccn6RWkKD+m3+I3lU1vT5dwlwVbUzOVtu4QZgVnLtEGYnDD0npftgpOp+bRg4Kpi+5m7ClbosYNacK/CwBQ==",
+  "publishedAt" : "2026-08-16T10:25:22.743Z",
+  "releaseNotes" : "Bike Sync 2.4.2\n\n- Automatically repairs duplicate Bike Sync-managed calendar workouts before load and recovery are calculated.\n- Removes orphaned weather replacements when no real matching outdoor workout exists.\n- Allows only one managed weather replacement per ride and date.\n- Preserves manual events, subscribed calendar notes, races, and third-party activities during repair.\n- Reloads Intervals.icu after cleanup so false planned load no longer distorts Fatigue or Form.",
+  "sha256" : "5e6b889974ee875bea170a557c4e212c2fad4e305363f590f4378bfd7c61405f",
+  "version" : "2.4.2"
 }
