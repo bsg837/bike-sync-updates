@@ -1,83 +1,112 @@
-# Bike Sync update log
+Bike Sync update log
 
-Every publicly distributed update is recorded here when its signed package and manifest are published.
+2.4.2 — August 16, 2026
+- Repairs existing duplicate Bike Sync-managed calendar workouts automatically before Fitness, Fatigue, Form, ramp rate, or coaching data are read.
+- Removes every managed weather replacement when the associated outdoor ride is only an optional note, subscription entry, race, or otherwise absent from the planned workout calendar.
+- Keeps at most one weather replacement per ride and date even when Intervals.icu accepts repeated event identifiers.
+- Collapses same-day managed workout duplicates created by older bridge identifiers while preserving manual and third-party events.
+- Rechecks Intervals.icu after cleanup so duplicate planned load cannot produce a false overnight fatigue or Form change.
 
-## 2.3.1 — August 15, 2026
+2.4.1 — August 15, 2026
+- Prevents calendar-only subscriptions from being created as executable bike-computer workouts; copied subscription entries remain visible as notes.
+- Requires every Bike Sync-created cycling workout to return a real Intervals.icu workout document with nonzero duration and structured steps.
+- Rolls back a newly created blank workout, or restores the last working description after a failed edit, instead of allowing a 0:00 entry to sync to a head unit.
+- Creates and validates an automatic recovery or weather-substitution workout before removing the workout it replaces, so a parsing failure cannot empty the day.
+- Updates the private coaching instructions so every executable cycling step uses native dash-prefixed Intervals.icu workout-builder syntax.
 
-- Refreshed the private coaching-instruction document during ordinary synchronization when an installed update contains newer rules.
-- Gave existing connections the same athlete-scoping, data-completeness, false-confidence, and calendar-confirmation safeguards as new connections without requiring setup again.
-- Avoided repository churn by writing the instruction document only when its exact contents changed.
+2.4.0 — August 15, 2026
+- Adds an editable rider profile with development priorities, priority event, and success goal to both the app and private coaching reports.
+- Includes Intervals.icu respiration together with current load, wellness history, recent activities, power curves, configured FTP, modeled FTP, and critical power.
+- Expands the default private coaching report to up to 500 recent activities over 365 days, 90 days of wellness, and calendar context from 28 days past through 180 days ahead, including cadence and other decision-relevant activity summaries when Intervals.icu supplies them.
+- Lets the connected phone coach request bounded read-only activity, analyzed-interval, activity-history, calendar, or wellness detail when the base report is insufficient, without enabling calendar writes or exposing credentials and GPS tracks.
+- Adds an optional direct Polar connection for supplemental Nightly Recharge context, detailed sleep, skin-temperature trend, and recovery tests while keeping Intervals.icu primary for overlapping measurements.
+- Treats same-night Polar recovery measurements as one correlated cluster and keeps Polar fitness-test VO2 max separate from cycling FTP and power targets.
+- Strengthens Bike Coach instructions so personalization must reconcile rider type, goals, current recovery, recent work, calendar, and the existing training plan without false confidence.
+- Allows an editable automatic-adjustment policy to convert ordinary Bike Sync-managed plan workouts into an executable 30-minute recovery ride, while protecting races, pacing files, openers, key sessions, manual events, group rides, and completed activities.
+- Counts the night's related wearable measurements as one recovery cluster and lets each user decide whether one clearly poor cluster is enough to reduce an ordinary workout automatically.
+- Adds an editable workout-preparation policy: short pre-ride activation, post-ride mobility, strength-day core progression, long-ride posture reminders, and one-click animated demonstrations.
+- Keeps preparation inside the athlete's time budget and preserves key intervals by trimming only easy riding when a workout is capped.
+- Keeps bike work, activation, mobility, and strength as separate Intervals.icu items by default and uses Intervals.icu's paired-event identifier—or a conservative distinctive-title and duration fallback—to recognize recorder-named completions such as “Zwift - Openers.”
+- Includes two editable optional longer mobility resources recommended by Johannes while keeping them separate from the short automatic block.
+- Adds a customizable blocked-source policy that removes exactly matched completed-activity sources before Fitness, Fatigue, Form, ramp rate, recovery decisions, or coaching reports are calculated. Bradley's supplied profile blocks Intervals Companion while a clean install leaves this destructive policy off.
+- Keeps automatic updates verified, installed in place, and relaunched without changing each user's preferences or credentials.
 
-## 2.3.0 — August 15, 2026
+2.3.1 — August 15, 2026
+- Refreshes the private coaching instructions during ordinary synchronization when the installed update contains newer safety rules.
+- Existing users now receive the same athlete-scoping, data-completeness, false-confidence, and calendar-confirmation safeguards as a fresh connection without repeating setup.
 
-- Added athlete-scoped cycling FTP, weight, power zones, selected power-curve points, up to 200 recent activity summaries, and recent wellness trends to private coaching reports.
-- Added explicit complete, partial, and disabled states for detailed Intervals.icu coverage and made missing power curves or activity history set `sync_ok` to false.
-- Required Bike Coach to distinguish configured FTP, modeled FTP, and historical best power and never reuse one connected athlete's data for another person.
-- Kept future planned-load projections out of current recovery status and wellness history.
-- Added an immediate Intervals.icu reread after coaching calendar writes so applied request filenames and returned replacement events are confirmed together.
-- Added a privacy control for detailed coaching data while continuing to exclude credentials, keys, raw workout files, and GPS tracks.
+2.3.0 — August 15, 2026
+- Gives the private coaching report the connected athlete's cycling FTP, weight, power zones, selected 42-day, one-year, and all-time power-curve points, up to 200 recent activity summaries, and recent wellness trends.
+- Identifies the one athlete represented by each report so coaching data cannot be silently reused for another person.
+- Separately reports whether detailed Intervals.icu data are complete, partial, or disabled and marks the synchronization incomplete when power-curve or recent-activity retrieval fails.
+- Directs Bike Coach to distinguish configured FTP, modeled FTP, and historical best power and to disclose missing evidence instead of presenting generic targets with false confidence.
+- Keeps future planned-load projections out of the current recovery status and wellness history.
+- Immediately rereads Intervals.icu after a coaching calendar change and confirms the returned event in the same report that carries the applied request filename.
+- Adds a privacy preference for detailed coaching data while continuing to exclude credentials, authentication keys, raw workout files, and GPS tracks.
 
-## 2.2.9 — August 14, 2026
+2.2.9 — August 14, 2026
+- Hides the midnight placeholder used for workouts without a confirmed start time.
+- Shows a time beside a workout only when the event has a confirmed start time or a matching activity supplies a completion time.
+- Uses elapsed activity time when available to calculate when a completed workout ended.
 
-- Hid the midnight placeholder used for workouts without a confirmed start time.
-- Showed a time beside a workout only when the event has a confirmed start time or a matching activity supplies a completion time.
-- Used elapsed activity time when available to calculate when a completed workout ended.
+2.2.8 — August 14, 2026
+- Shows a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.
+- Recognizes safe Strava and Intervals.icu prefixes while still requiring the same date and a compatible duration.
+- Keeps the completed workout in today's list after its scheduled time passes.
+- Marks each incomplete workout scheduled for today with a matching red right-pointing indicator and keeps overdue workouts visible through the day.
+- Avoids repeating the same workout in a separate completed section; unmatched activities remain visible there.
+- Gives the completion check an accessibility label so VoiceOver also announces the workout as completed.
 
-## 2.2.8 — August 14, 2026
+2.2.7 — August 14, 2026
+- Honors a coaching request's exact target event ID, date, and title when deleting a duplicate Bike-Sync-owned event.
+- Refuses a targeted deletion if the event moved, was renamed, or is not owned by Bike Sync.
+- Keeps date-wide cleanup available only when the coaching request does not name a target event.
+- Starts the first synchronization directly during application initialization so it cannot wait for the menu to be opened.
 
-- Showed a clear green check beside a scheduled workout once its matching completed activity reaches Intervals.icu.
-- Recognized safe Strava and Intervals.icu title prefixes while still requiring the same date and compatible duration.
-- Kept completed and overdue incomplete workouts visible in today's list.
-- Marked incomplete workouts scheduled for today with a matching red right-pointing indicator.
-- Avoided repeating a matched workout in the separate completed-activity section.
+2.2.6 — August 14, 2026
+- Sends full local date-and-time values to Intervals.icu for coaching, health, weather-replacement, and copied calendar events.
+- Starts Intervals.icu and private coaching synchronization as soon as Bike Sync launches; opening the menu is no longer necessary.
+- Makes a coaching “replace” request remove only older Bike-Sync-owned workouts on that date before creating the revised workout; manual races and subscribed calendar events remain protected.
+- Recognizes Bradley's original legacy Intervals.icu Keychain entry during upgrades.
 
-## 2.2.7 — August 14, 2026
+2.2.5 — August 12, 2026
+- Removes duplicate calendar-subscription rows that could accumulate across repeated refreshes.
+- Shows one combined row when a calendar-backed Intervals.icu event differs only by generic calendar, route-type, or distance labels.
+- Keeps genuinely distinct rides visible, including different rides at the same start time.
+- Retains one cached event only when its calendar is temporarily unavailable, then replaces it on the next successful refresh.
 
-- Made targeted duplicate deletion verify the exact Bike-Sync-owned event ID, date, title, and ownership before deletion.
-- Prevented a targeted cleanup from deleting every managed workout on the same date.
-- Started the first private coaching synchronization directly during application initialization.
-- Included the Intervals date-and-time, launch-time synchronization, safe replacement, and calendar deduplication fixes developed in 2.2.5–2.2.6.
+2.2.4 — August 12, 2026
+- Baselines the complete existing private request folder during the first universal sync.
+- Prevents older files omitted from a stale legacy ledger from being processed after an upgrade.
+- Processes only requests added or changed after that safe baseline.
 
-## 2.2.6 — August 14, 2026
+2.2.3 — August 12, 2026
+- Allows description-only corrections to legacy training events that were created and managed by earlier Bike Sync versions.
+- Still verifies the exact event ID, date, and name and refuses to edit manual events.
 
-- Sent full local date-and-time values for Intervals.icu coaching, health, weather-replacement, and copied calendar events.
-- Started private coaching synchronization as soon as Bike Sync launches, without requiring the menu to be opened.
-- Replaced older Bike-Sync-owned workouts while preserving manual races and subscribed calendar events.
-- Restored recognition of Bradley's original legacy Intervals.icu Keychain entry.
+2.2.2 — August 12, 2026
+- Migrates the earlier coaching-request ledger before the bridge checks for new requests.
+- Prevents historical coaching files from being processed as newly approved calendar changes after an upgrade.
 
-## 2.2.5 — August 12, 2026
+2.2.1 — August 12, 2026
+- Shows the complete text when any workout or optional event is expanded.
+- Keeps long workout text readable by using the menu's existing vertical scrolling.
+- Adds one-click animated exercise demonstrations for recognized strength and mobility movements.
+- Restores existing Intervals.icu and private coaching connections saved by earlier Bike Sync versions.
+- Allows an explicitly approved managed workout description to be updated without changing its prescription or touching manual events.
 
-- Removed duplicate calendar-subscription rows that could accumulate across repeated refreshes.
-- Combined equivalent subscribed and Intervals-backed calendar rows while retaining genuinely distinct rides.
-- Preserved one cached event during a temporary calendar outage and replaced it on the next successful refresh.
+2.2.0 — August 12, 2026
+- Activates the signed public update feed.
+- Automatically downloads and installs verified releases when the preference is enabled.
+- Checks at startup and every six hours while Bike Sync remains open.
+- Keeps the previous application as a recoverable backup during an update.
+- Shows the installed version, current release notes, update status, and this update log inside the app.
+- Retains complete Intervals.icu training data when a newer calendar-only cache exists.
 
-## 2.2.4 — August 12, 2026
+2.1.2 — August 12, 2026
+- Preserves the fuller Intervals.icu training cache when a newer calendar-only cache exists.
+- Combines optional calendar entries and route weather with cached training status and workouts.
 
-- Baselined the complete existing private request folder during the first universal sync.
-- Prevented older files omitted from a stale legacy ledger from being processed after an upgrade.
-- Limited processing to requests added or changed after the safe baseline.
-
-## 2.2.3 — August 12, 2026
-
-- Allowed safety-checked description-only corrections to legacy training events created by earlier Bike Sync versions.
-- Continued to protect manual events by verifying the exact event ID, date, name, and managed identifier.
-
-## 2.2.2 — August 12, 2026
-
-- Migrated earlier Bike Sync request history before checking for new coaching requests.
-- Prevented historical request files from being processed as newly approved calendar changes after an upgrade.
-
-## 2.2.1 — August 12, 2026
-
-- Expanded workout and optional-event cards now show their complete text in the scrollable menu.
-- Added one-click animated demonstrations for recognized strength and mobility exercises.
-- Restored connections saved under earlier Bike Sync credential labels.
-- Added a safety-checked description-only correction for Bike Sync-managed workouts; manual Intervals.icu events remain protected.
-
-## 2.2.0 — August 12, 2026
-
-- Activated the signed public update feed.
-- Added automatic verified installation at startup and every six hours when enabled.
-- Added automatic retry after network failures and retained the previous application as a backup.
-- Added the installed version, release notes, update status, and cumulative update log to the app.
-- Included the 2.1.2 cache correction so calendar-only data cannot hide fuller Intervals.icu training data.
+2.1.0 — August 11, 2026
+- Introduces the portable universal Intel and Apple-silicon application.
+- Adds customizable calendars, recurring rides, weather, recovery adjustments, optional coaching, diagnostics, and guided setup.
