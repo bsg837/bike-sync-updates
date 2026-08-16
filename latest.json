@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.3.1/Bike-Sync-2.3.1-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.1/Bike-Sync-2.4.1-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "pW0lTPx/xT+cZPT/HVSEmmN/n10iwlPJlraSGoNkzcPUIzAwKsXJ8molx+sv8PJwMXsbLcF/j04nt/MDemZGBQ==",
-  "publishedAt" : "2026-08-15T21:04:06.351Z",
-  "releaseNotes" : "Bike Sync 2.3.1\n\n- Existing private coaching connections now receive newer coaching-safety instructions during ordinary synchronization; setup does not need to be repeated.\n- The refreshed rules require Bike Coach to verify report freshness and completeness, distinguish configured FTP from modeled FTP and historical power, and avoid presenting estimates as confidently individualized when evidence is missing.\n- The rules also prevent one connected athlete's data from being reused for another athlete and require an exact applied-request filename plus the returned Intervals.icu event before a calendar update may be called successful.\n- The document is written only when its contents changed, avoiding unnecessary private-repository updates.",
-  "sha256" : "3ed6e74b0cf847673c690fb7d64493ab438400514a84e7458e1be8841198ce7f",
-  "version" : "2.3.1"
+  "packageSignature" : "ZItSxXxCvbVtL+roZsZjn086KVFLEKpiuif6rXZ8YP01BILvqiiksqU+CyRDFBjxAYG0+smy2LCJYIw9ncWiDA==",
+  "publishedAt" : "2026-08-16T03:36:37.465Z",
+  "releaseNotes" : "Bike Sync 2.4.1\n\n- Prevents calendar-only subscriptions from becoming device workouts. They remain visible in Intervals.icu as notes.\n- Refuses to confirm a cycling workout unless Intervals.icu returns a real structured workout with a nonzero duration and executable steps.\n- Automatically rolls back a blank newly created workout and restores the previous description after a failed update, preventing 0:00 files from reaching a bike computer.\n- Validates recovery and weather-substitution files before removing the cycling workout they replace.\n- Requires private coaching requests to use native Intervals.icu workout-builder syntax for every executable cycling step.",
+  "sha256" : "cac54b75b4c969d608cdbba3e8046222cbaa8020ad90ed68d0e0c906bef39902",
+  "version" : "2.4.1"
 }
