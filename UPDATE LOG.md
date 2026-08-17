@@ -1,12 +1,22 @@
 Bike Sync update log
 
+2.4.11 — August 17, 2026
+- Removes the Polar skin-temperature setting, display, recovery rule, and API request because the connected Polar Loop supplies no skin-temperature measurement.
+- Centers the compact wellness-detail lines and hides wellness items that have no measured value.
+- Shows current eFTP as watts and one-decimal watts per kilogram using the current Intervals.icu weight.
+- Shows the Intervals M/F age-group percentile for this season's eFTP beneath the current eFTP and displays a hover radar for this season's 5-second through 1-hour power, with an exact Intervals percentile under every watt value.
+- Uses Intervals' 5-second rank as the shortest radar axis because Intervals does not supply a 1-second age percentile.
+- Gives Bike Sync one stable, app-specific signing identity so macOS can recognize future updates as the same app instead of repeatedly asking for every saved credential.
+- Keeps the independent publisher signature and checksum as the update trust boundary while recognizing the pinned local app identity on Macs where its certificate is intentionally not a general system trust root.
+- Preserves the verified Polar readiness, ANS Recharge, sleep score, lowest sleeping heart rate, and VO2-max data added in 2.4.10.
+
 2.4.10 — August 17, 2026
-- Repairs direct Polar data retrieval by using Polar's supported AccessLink v3 endpoints while preserving existing Keychain authorization.
-- Shows Polar readiness as six source-colored circles with a parenthetical percentage and keeps Intervals.icu values in the Intervals color scheme.
-- Adds direct Polar ANS Recharge, lowest sleeping heart rate, skin-temperature, SpO2, and dated current VO2 max retrieval.
-- Can fill a missing dated Polar VO2-max value in Intervals.icu without overwriting an existing value and never copies Polar weight.
-- Keeps Wyze smart-scale weight and Apple Health-only records on the established iPhone Health Sync route, avoiding a less-reliable duplicate bridge.
-- Packages a bicycle Finder icon inside the application and retains the compact bicycle in the menu bar.
+- Repairs the direct Polar connection to use the supported AccessLink v3 service and preserves previously authorized connections in macOS Keychain.
+- Shows Polar Nightly Recharge readiness as six status circles with a parenthetical percentage; Polar values use Polar status colors and Intervals.icu values retain the Intervals accent.
+- Reads ANS Recharge and the lowest five-minute sleep heart-rate sample directly from Polar, including the sleep samples Polar itself attaches to the night.
+- Reads the current dated Polar VO2 max and can fill only a missing Intervals.icu VO2-max entry; existing values and all Polar weight data are protected from overwrite.
+- Keeps Apple Health and Wyze scale data on the existing iPhone Health Sync path because macOS cannot read the iPhone Health database and Wyze publishes no supported scale-data API.
+- Adds a packaged bicycle application icon while retaining the smaller menu-bar bicycle.
 
 2.4.9 — August 17, 2026
 - Keeps the eFTP, VO2 max, Fitness, Fatigue, and Form cards prominent.
