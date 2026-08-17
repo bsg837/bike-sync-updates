@@ -1,5 +1,11 @@
 Bike Sync update log
 
+2.4.7 — August 17, 2026
+- Mirrors the eFTP displayed in Intervals.icu Sport Settings by reading the newest cycling fitness signature from daily wellness.
+- Keeps that displayed eFTP distinct from configured FTP, indoor FTP, the separate `mmp_model` curve, and activity-specific historical estimates.
+- Shares the same displayed eFTP, eW′, and ePmax with Bike Coach and uses only displayed eFTP for the optional FTP synchronization rule.
+- Adds regression coverage for the exact case where Intervals displays eFTP 311 W while configured FTP and the separate curve model are 295 W.
+
 2.4.6 — August 17, 2026
 - Labels an empty planned day as Rest day in the Today-through-Sunday list instead of displaying a generic no-event message.
 - Keeps completed-activity matching separate, so Rest day describes the plan and does not claim that an activity was completed.

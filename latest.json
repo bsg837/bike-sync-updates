@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.6/Bike-Sync-2.4.6-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.7/Bike-Sync-2.4.7-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "ZY6skVI7GG/Xn1t8qBC6Jwl+gaRuYz2M1y+tkiI/DTOaFSqdXRLEryt/Wf3COzj8Ys46aWwOCU1wCAn33fAPCg==",
-  "publishedAt" : "2026-08-17T06:06:49.132Z",
-  "releaseNotes" : "Bike Sync 2.4.6\n\n- Shows Rest day for an empty planned day in the Today-through-Sunday list.\n- Keeps rest-day planning separate from completed-activity status.\n- Includes all 2.4.5 race-entry, TT pacing, route-strategy, unique-workout, and athlete-wide eFTP improvements.",
-  "sha256" : "8122e4a4a134c73978e51935befaa91a4588f10d4f2d53aea07daf0352773533",
-  "version" : "2.4.6"
+  "packageSignature" : "G7tsoDC7D4auhyNmKXFaWMoLKAd/Rlh4YnkBHnSg8lz+rLZtduF8hc8WCYyswXyigLNZlbSxCBBYptFOD9YXCA==",
+  "publishedAt" : "2026-08-17T15:40:03.500Z",
+  "releaseNotes" : "Bike Sync 2.4.7\n\n- Mirrors the eFTP displayed in Intervals.icu Sport Settings from the newest cycling fitness signature in daily wellness.\n- Never substitutes the separate power-curve model or an activity-specific historical eFTP for FTP synchronization.\n- Shares the matching eFTP, eW′, and ePmax with Bike Coach.\n- Corrects the 311 W eFTP versus 295 W configured/model mismatch identified on August 17.",
+  "sha256" : "6cc5b5d7035d3fda9f187f205a0842f9ae74be72d9bf0a6dc3426dcb576f3209",
+  "version" : "2.4.7"
 }
