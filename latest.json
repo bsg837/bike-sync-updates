@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.5/Bike-Sync-2.4.5-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.6/Bike-Sync-2.4.6-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "l70LBYb4RPp+uhZhA7xe2uHnKbX3yuTReyOEuttBgZE+NVf2hFZxWavPJ+rP/l9tJCR3y/knaHM+d38a7SiNAQ==",
-  "publishedAt" : "2026-08-17T05:49:16.377Z",
-  "releaseNotes" : "Bike Sync 2.4.5\n\n- Gives each approved coaching request its own stable Intervals.icu identifier.\n- Keeps separate same-day warm-up, TT Pace, and between-race re-warm workouts from replacing one another.\n- Retains exact duplicate repair so a retried request still cannot produce repeated copies.\n- Simplifies eFTP automation to one Intervals.icu FTP checkbox; percentage-based TT Pace workouts scale from that configured value and are not rewritten.\n- Discovers possible races from optional calendars, keeps Entered athlete-specific, and creates TT Pace only for an entered time trial after its course has been reviewed.\n- Gives Bike Coach official event pages and route links for strategy, while keeping road races separate from TT workout creation.\n- Stops for review when an official page lists several or conflicting course distances instead of silently choosing one.",
-  "sha256" : "42ac80b3f3ba148ea614cdcb9fdef596123a4168e4905d19941fe09f3c5ac3b3",
-  "version" : "2.4.5"
+  "packageSignature" : "ZY6skVI7GG/Xn1t8qBC6Jwl+gaRuYz2M1y+tkiI/DTOaFSqdXRLEryt/Wf3COzj8Ys46aWwOCU1wCAn33fAPCg==",
+  "publishedAt" : "2026-08-17T06:06:49.132Z",
+  "releaseNotes" : "Bike Sync 2.4.6\n\n- Shows Rest day for an empty planned day in the Today-through-Sunday list.\n- Keeps rest-day planning separate from completed-activity status.\n- Includes all 2.4.5 race-entry, TT pacing, route-strategy, unique-workout, and athlete-wide eFTP improvements.",
+  "sha256" : "8122e4a4a134c73978e51935befaa91a4588f10d4f2d53aea07daf0352773533",
+  "version" : "2.4.6"
 }

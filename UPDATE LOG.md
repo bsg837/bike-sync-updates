@@ -1,5 +1,9 @@
 Bike Sync update log
 
+2.4.6 — August 17, 2026
+- Labels an empty planned day as Rest day in the Today-through-Sunday list instead of displaying a generic no-event message.
+- Keeps completed-activity matching separate, so Rest day describes the plan and does not claim that an activity was completed.
+
 2.4.5 — August 17, 2026
 - Gives every approved coaching request its own stable Intervals.icu identifier, so a same-day warm-up, TT Pace workout, and between-race re-warm remain three separate workouts instead of overwriting one another.
 - Keeps the existing exact-name and exact-duration duplicate repair in place, so retrying one request still cannot create repeated copies.
