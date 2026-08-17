@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.11/Bike-Sync-2.4.11-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.12/Bike-Sync-2.4.12-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "gNdYzCTVhRnGf1/30BrBF9uTPDcbSz/tSpfm3HG9HInX/CUpF4eG/Gq1/4a5VeuBEH3Ym/toyg5eOYMPvKIaBg==",
-  "publishedAt" : "2026-08-17T19:25:04.583Z",
-  "releaseNotes" : "Bike Sync 2.4.11\n\n- Removes the Polar skin-temperature setting, display, recovery rule, and API request because the connected Polar Loop supplies no skin-temperature measurement.\n- Centers the compact wellness-detail lines and hides wellness items that have no measured value.\n- Shows current eFTP as watts and one-decimal watts per kilogram using the current Intervals.icu weight.\n- Shows the Intervals age-group percentile for this season's eFTP beneath the current estimate and adds a hover radar for this season's 5-second through 1-hour power, with the exact age percentile under every watt value.\n- Preserves the verified Polar readiness, ANS Recharge, sleep score, lowest sleeping heart rate, and VO2-max data added in 2.4.10.\n- Keeps Wyze smart-scale weight and Apple Health-only records on the established iPhone Health Sync route.\n- Gives Bike Sync one stable, app-specific signing identity so macOS can recognize future updates as the same app instead of repeatedly asking for every saved credential.\n- Keeps the independent publisher signature and checksum as the update trust boundary while recognizing the pinned local app identity on Macs where its certificate is intentionally not a general system trust root.",
-  "sha256" : "489d27e4c1b6ebac2faa8a3fc8cec2f8d7a97b61f39b6e772ed8be4120224973",
-  "version" : "2.4.11"
+  "packageSignature" : "KX0t2+I9jZzilOnlwWW683GuhLDvLNREApBYkc1qPZTaTbjRAMh7m83WK8LsrA1VSZbezvSNrYpHAn8cXALdCg==",
+  "publishedAt" : "2026-08-17T23:16:32.721Z",
+  "releaseNotes" : "Bike Sync 2.4.12\n\n- Replaces the cramped “%ile” shorthand with the full, unambiguous “th percentile” label beneath eFTP and every power-radar value.",
+  "sha256" : "0b17dce3d1bb0ed7e0add8d89833deac1203394aa32410c1953b1cfbf41eb600",
+  "version" : "2.4.12"
 }

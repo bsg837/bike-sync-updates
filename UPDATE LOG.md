@@ -1,5 +1,8 @@
 Bike Sync update log
 
+2.4.12 — August 17, 2026
+- Replaces the cramped “%ile” shorthand with the full, unambiguous “th percentile” label beneath eFTP and every power-radar value.
+
 2.4.11 — August 17, 2026
 - Removes the Polar skin-temperature setting, display, recovery rule, and API request because the connected Polar Loop supplies no skin-temperature measurement.
 - Centers the compact wellness-detail lines and hides wellness items that have no measured value.
