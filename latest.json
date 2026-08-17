@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.4/Bike-Sync-2.4.4-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.5/Bike-Sync-2.4.5-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "mgh7Sps+8MB4YXKOhcLz5aESVIgXWCjcgVcRUob2crSUK9kcwPtcC0KYN6BoyeY6IjSJQ5VrArdQkb23lKbwDQ==",
-  "publishedAt" : "2026-08-17T05:11:46.108Z",
-  "releaseNotes" : "Bike Sync 2.4.4\n\n- Uses the current athlete-wide Intervals.icu cycling eFTP rather than an activity-specific historical value.\n- Keeps Intervals.icu cycling FTP synchronized to that eFTP and refreshes future percentage-based workouts whose names contain TT Pace.\n- Adds an optional Strava profile connection for synchronizing the same FTP after a one-time approval.\n- Lets Bike Coach request core temperature and other Intervals.icu activity streams without exporting GPS/location streams.\n- Establishes TT Pace as the standard name marker for actual time-trial pacing files; warm-ups and between-race re-warms remain separate.",
-  "sha256" : "63c757dff1ce35f706368020ec5801af47d37dfb2decf39ec7a1312759809ae6",
-  "version" : "2.4.4"
+  "packageSignature" : "l70LBYb4RPp+uhZhA7xe2uHnKbX3yuTReyOEuttBgZE+NVf2hFZxWavPJ+rP/l9tJCR3y/knaHM+d38a7SiNAQ==",
+  "publishedAt" : "2026-08-17T05:49:16.377Z",
+  "releaseNotes" : "Bike Sync 2.4.5\n\n- Gives each approved coaching request its own stable Intervals.icu identifier.\n- Keeps separate same-day warm-up, TT Pace, and between-race re-warm workouts from replacing one another.\n- Retains exact duplicate repair so a retried request still cannot produce repeated copies.\n- Simplifies eFTP automation to one Intervals.icu FTP checkbox; percentage-based TT Pace workouts scale from that configured value and are not rewritten.\n- Discovers possible races from optional calendars, keeps Entered athlete-specific, and creates TT Pace only for an entered time trial after its course has been reviewed.\n- Gives Bike Coach official event pages and route links for strategy, while keeping road races separate from TT workout creation.\n- Stops for review when an official page lists several or conflicting course distances instead of silently choosing one.",
+  "sha256" : "42ac80b3f3ba148ea614cdcb9fdef596123a4168e4905d19941fe09f3c5ac3b3",
+  "version" : "2.4.5"
 }

@@ -1,5 +1,14 @@
 Bike Sync update log
 
+2.4.5 — August 17, 2026
+- Gives every approved coaching request its own stable Intervals.icu identifier, so a same-day warm-up, TT Pace workout, and between-race re-warm remain three separate workouts instead of overwriting one another.
+- Keeps the existing exact-name and exact-duration duplicate repair in place, so retrying one request still cannot create repeated copies.
+- Removes the redundant TT Pace refresh preference: percentage-based TT workouts follow the configured FTP, so the one Intervals.icu FTP-sync checkbox is sufficient and workouts are not rewritten.
+- Discovers race-like events from connected optional calendars for the next 180 days, while keeping each athlete's Entered choice separate from the shared calendar.
+- Creates a course-distance TT Pace workout only for an entered time trial after the course distance, turnaround, and expected duration have been reviewed.
+- Shares official event pages and route links with Bike Coach for strategy; road races never create TT Pace files.
+- Flags multiple or conflicting published course distances for review instead of guessing.
+
 2.4.4 — August 17, 2026
 - Uses Intervals.icu's current athlete-wide cycling model for eFTP and never substitutes a historical eFTP stored on an individual activity.
 - Can keep configured cycling FTP equal to athlete-wide eFTP, then refresh every future percentage-based workout containing TT Pace in its name so connected bike platforms rebuild the targets.
