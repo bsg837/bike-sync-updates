@@ -1,5 +1,10 @@
 Bike Sync update log
 
+2.4.9 — August 17, 2026
+- Keeps the eFTP, VO2 max, Fitness, Fatigue, and Form cards prominent.
+- Replaces the six separate wellness cards with a compact three-column text list beneath them.
+- Removes individual wellness backgrounds and borders while preserving values, dates, targets, sources, and missing-data labels.
+
 2.4.8 — August 17, 2026
 - Places current Intervals.icu eFTP and the newest dated VO2 max measurement above Fitness, Fatigue, and Form.
 - Rebuilds the wellness area as six prominent tiles: ramp versus target, sleep, readiness, Polar ANS Recharge, lowest sleep heart rate, and latest blood pressure.
