@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.9/Bike-Sync-2.4.9-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.10/Bike-Sync-2.4.10-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "2eUJNlvhQ4Zm/ZYtpqAkTxCnsWbpbqMsiEFo0P+ywxg0Mp8Iz866ZC1MszQS7HvMbOYJjkkmmyJsv2h1J5m8Dg==",
-  "publishedAt" : "2026-08-17T16:54:59.894Z",
-  "releaseNotes" : "Bike Sync 2.4.9\n\n- Keeps the eFTP, VO2 max, Fitness, Fatigue, and Form cards prominent.\n- Presents ramp rate, sleep, readiness, ANS Recharge, lowest sleep heart rate, and blood pressure as a compact three-column list.\n- Removes the six individual wellness boxes without removing their details or missing-data labels.",
-  "sha256" : "5919f66d239fa8650bc8b80b97225a89a0c20c77a567c703f597347b8a6c99b2",
-  "version" : "2.4.9"
+  "packageSignature" : "/zaugH8toNKrHZAnlp/ZT+slcDS7hDu/tlK+IJtTSM+88Mu6McCAqMM2/w5BfoPeX3CmoRqiwExGE2QgI2UoAg==",
+  "publishedAt" : "2026-08-17T18:23:36.751Z",
+  "releaseNotes" : "Bike Sync 2.4.10\n\n- Repairs ANS Recharge, Nightly Recharge, lowest sleep heart rate, skin-temperature, SpO2, and current Polar VO2-max reads by using Polar's supported AccessLink v3 endpoints.\n- Shows Polar readiness as six colored circles with a parenthetical percentage while preserving Intervals.icu colors for Intervals-sourced values.\n- Can safely fill a missing dated Polar VO2-max value in Intervals.icu without overwriting an existing value or copying Polar weight.\n- Keeps Wyze smart-scale weight and Apple Health-only data on the existing iPhone Health Sync path instead of adding a less-reliable duplicate importer.\n- Packages a bicycle Finder icon inside the app and keeps the compact bicycle in the menu bar.",
+  "sha256" : "b2f26475e7efebf0d30ac07a55a65b40c8a73668ed7212067faeef1cccb37d76",
+  "version" : "2.4.10"
 }

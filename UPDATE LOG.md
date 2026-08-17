@@ -1,5 +1,13 @@
 Bike Sync update log
 
+2.4.10 — August 17, 2026
+- Repairs direct Polar data retrieval by using Polar's supported AccessLink v3 endpoints while preserving existing Keychain authorization.
+- Shows Polar readiness as six source-colored circles with a parenthetical percentage and keeps Intervals.icu values in the Intervals color scheme.
+- Adds direct Polar ANS Recharge, lowest sleeping heart rate, skin-temperature, SpO2, and dated current VO2 max retrieval.
+- Can fill a missing dated Polar VO2-max value in Intervals.icu without overwriting an existing value and never copies Polar weight.
+- Keeps Wyze smart-scale weight and Apple Health-only records on the established iPhone Health Sync route, avoiding a less-reliable duplicate bridge.
+- Packages a bicycle Finder icon inside the application and retains the compact bicycle in the menu bar.
+
 2.4.9 — August 17, 2026
 - Keeps the eFTP, VO2 max, Fitness, Fatigue, and Form cards prominent.
 - Replaces the six separate wellness cards with a compact three-column text list beneath them.
