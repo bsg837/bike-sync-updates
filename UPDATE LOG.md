@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.4 — August 17, 2026
+- Uses Intervals.icu's current athlete-wide cycling model for eFTP and never substitutes a historical eFTP stored on an individual activity.
+- Can keep configured cycling FTP equal to athlete-wide eFTP, then refresh every future percentage-based workout containing TT Pace in its name so connected bike platforms rebuild the targets.
+- Adds an optional one-time Strava profile connection for keeping Strava FTP equal to the same athlete-wide Intervals.icu value; credentials and refresh tokens stay in macOS Keychain.
+- Gives Bike Coach a bounded activity-stream query for core temperature and other device or custom streams that Intervals.icu exposes, while excluding GPS/location streams.
+- Teaches Bike Coach to name every actual time-trial pacing workout with TT Pace and to keep warm-ups and between-race re-warms separate.
+
 2.4.3 — August 16, 2026
 - Lets Bike Coach list athletes the Intervals.icu account follows or coaches and request an explicitly selected athlete's profile, power curves, activities, analyzed intervals, calendar, and wellness data.
 - Keeps all secondary-athlete access read-only and verifies the athlete ID against Intervals.icu before returning any data.

@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.3/Bike-Sync-2.4.3-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.4/Bike-Sync-2.4.4-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "eJK6Y8rWRvefjg0hHW9bvLC9mpra1lAv+0Xsr+KXMtAwfV2DQ0O5JjGlDmYpOIw7vzaFb5XXHcHH8WKM/kJKCQ==",
-  "publishedAt" : "2026-08-16T21:25:30.131Z",
-  "releaseNotes" : "Bike Sync 2.4.3\n\n- Bike Coach can now discover athletes you follow or coach in Intervals.icu and request a named athlete's profile, power curves, activities, intervals, calendar, and wellness data.\n- Access to every athlete other than the connected account owner is strictly read-only.\n- Every result carries the selected athlete's ID and name to prevent cross-athlete analysis mistakes.\n- Intervals.icu's restriction on forwarding coached athletes' Strava-sourced activities is disclosed as unavailable data rather than filled with estimates.",
-  "sha256" : "55c7f1413ebf6d5c71d6b4775b8051eb737d875ac97c477ce40efeec9d219d7e",
-  "version" : "2.4.3"
+  "packageSignature" : "mgh7Sps+8MB4YXKOhcLz5aESVIgXWCjcgVcRUob2crSUK9kcwPtcC0KYN6BoyeY6IjSJQ5VrArdQkb23lKbwDQ==",
+  "publishedAt" : "2026-08-17T05:11:46.108Z",
+  "releaseNotes" : "Bike Sync 2.4.4\n\n- Uses the current athlete-wide Intervals.icu cycling eFTP rather than an activity-specific historical value.\n- Keeps Intervals.icu cycling FTP synchronized to that eFTP and refreshes future percentage-based workouts whose names contain TT Pace.\n- Adds an optional Strava profile connection for synchronizing the same FTP after a one-time approval.\n- Lets Bike Coach request core temperature and other Intervals.icu activity streams without exporting GPS/location streams.\n- Establishes TT Pace as the standard name marker for actual time-trial pacing files; warm-ups and between-race re-warms remain separate.",
+  "sha256" : "63c757dff1ce35f706368020ec5801af47d37dfb2decf39ec7a1312759809ae6",
+  "version" : "2.4.4"
 }
