@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.7/Bike-Sync-2.4.7-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.8/Bike-Sync-2.4.8-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "G7tsoDC7D4auhyNmKXFaWMoLKAd/Rlh4YnkBHnSg8lz+rLZtduF8hc8WCYyswXyigLNZlbSxCBBYptFOD9YXCA==",
-  "publishedAt" : "2026-08-17T15:40:03.500Z",
-  "releaseNotes" : "Bike Sync 2.4.7\n\n- Mirrors the eFTP displayed in Intervals.icu Sport Settings from the newest cycling fitness signature in daily wellness.\n- Never substitutes the separate power-curve model or an activity-specific historical eFTP for FTP synchronization.\n- Shares the matching eFTP, eW′, and ePmax with Bike Coach.\n- Corrects the 311 W eFTP versus 295 W configured/model mismatch identified on August 17.",
-  "sha256" : "6cc5b5d7035d3fda9f187f205a0842f9ae74be72d9bf0a6dc3426dcb576f3209",
-  "version" : "2.4.7"
+  "packageSignature" : "hQG8rJqDF1Ravpwkl2fNPjdGPMgizg5r0IAcWyInYSrOXk9JVq0RzqPqUTsl2aLjwIavleBQaAm19Rx4c4AUDw==",
+  "publishedAt" : "2026-08-17T16:20:53.380Z",
+  "releaseNotes" : "Bike Sync 2.4.8\n\n- Moves current Intervals.icu eFTP and the newest dated VO2 max measurement to the top of Training status.\n- Makes ramp versus target, sleep, readiness, Polar ANS Recharge, lowest sleep heart rate, and blood pressure prominent without adding decimal places to Fitness, Fatigue, or Form.\n- Uses the newest complete Intervals.icu blood-pressure record and labels its date.\n- Recovers lowest sleep heart rate only from Polar samples inside Polar's recorded sleep interval, including overnight intervals that cross midnight.\n- Gives Bike Coach the same VO2 max, blood-pressure, and lowest-sleep-heart-rate data when the corresponding sharing connections are enabled.",
+  "sha256" : "27ea71efdca5a8bf359f8e76b6f31417fb9928f84bcedf75f0138e1975694856",
+  "version" : "2.4.8"
 }

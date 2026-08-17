@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.8 — August 17, 2026
+- Places current Intervals.icu eFTP and the newest dated VO2 max measurement above Fitness, Fatigue, and Form.
+- Rebuilds the wellness area as six prominent tiles: ramp versus target, sleep, readiness, Polar ANS Recharge, lowest sleep heart rate, and latest blood pressure.
+- Uses the newest complete Intervals.icu systolic/diastolic record and shows its date; incomplete or missing readings remain visibly unavailable.
+- Calculates lowest sleep heart rate only from Polar heart-rate samples inside Polar's recorded sleep start/end interval, including sleep that crosses midnight.
+- Adds VO2 max and blood pressure to Bike Coach's read-only wellness data, while direct Polar sleep details include the recovered nightly minimum.
+
 2.4.7 — August 17, 2026
 - Mirrors the eFTP displayed in Intervals.icu Sport Settings by reading the newest cycling fitness signature from daily wellness.
 - Keeps that displayed eFTP distinct from configured FTP, indoor FTP, the separate `mmp_model` curve, and activity-specific historical estimates.
