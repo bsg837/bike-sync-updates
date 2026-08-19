@@ -1,6 +1,12 @@
 Bike Sync update log
 
-2.4.15 — August 19, 2026
+2.4.16 — August 19, 2026
+- Gives Bike Coach one reusable read-only batch request for the exact Intervals.icu streams from as many as 25 activities, including Di2 front gear, rear gear, ratio, and pedaling gear code when recorded.
+- Lets read-only activity-history queries span up to five years by safely dividing them into one-year Intervals.icu calls, so recurring rides and long-distance rides can be found without repeated manual requests.
+- Accepts the earlier `resource` field as a backwards-compatible alias for `query_resource`, preventing a harmless request-format mismatch from derailing a coaching analysis.
+- Explicitly requires Bike Coach to report exact stream availability per activity and never pretend cadence or speed reveals an exact gear when the FIT file lacks Di2 telemetry.
+
+2.4.15 — August 18, 2026
 - Restores the missing 1-second polygon node in the season power radar.
 - Uses the published Cycling Analytics male 1-second power distribution for that node because Intervals.icu precomputes rankings only from 5 seconds onward.
 - Labels the 1-second percentile as approximate and identifies its all-men comparison group; all other nodes continue to use the selected Intervals.icu age group.
