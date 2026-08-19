@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.12/Bike-Sync-2.4.12-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.13/Bike-Sync-2.4.13-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "KX0t2+I9jZzilOnlwWW683GuhLDvLNREApBYkc1qPZTaTbjRAMh7m83WK8LsrA1VSZbezvSNrYpHAn8cXALdCg==",
-  "publishedAt" : "2026-08-17T23:16:32.721Z",
-  "releaseNotes" : "Bike Sync 2.4.12\n\n- Replaces the cramped “%ile” shorthand with the full, unambiguous “th percentile” label beneath eFTP and every power-radar value.",
-  "sha256" : "0b17dce3d1bb0ed7e0add8d89833deac1203394aa32410c1953b1cfbf41eb600",
-  "version" : "2.4.12"
+  "packageSignature" : "AgA3PVkgiWJhsOrK2IQXUzqkVzeTnK92Q3TDeOwsErDA6JTOEX43VWvTTJ3wfyr+B0Hj69KSmuJQyYp8kd3nCg==",
+  "publishedAt" : "2026-08-19T03:08:08.191Z",
+  "releaseNotes" : "Bike Sync 2.4.13\n\n- Shows one-decimal watts per kilogram beside every watt value in the season power radar.\n- Uses lowercase `w` and `w/kg` in the eFTP headline.\n- Adds a hover graph to VO₂ max using a true 365-day Intervals.icu wellness history, with exact dated values available on each point.\n- Keeps private exercise-selection and equipment constraints out of visible workout text while still applying them when the coach selects exercises.",
+  "sha256" : "ae504cd6d730b4e7b48c4a843d10269509fab19ce2b50ae319d706cdb86d5756",
+  "version" : "2.4.13"
 }

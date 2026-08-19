@@ -1,5 +1,11 @@
 Bike Sync update log
 
+2.4.13 — August 18, 2026
+- Shows one-decimal watts per kilogram beside every watt value in the season power radar.
+- Uses lowercase `w` and `w/kg` in the eFTP headline.
+- Adds a hover graph to VO₂ max using a true 365-day Intervals.icu wellness history, with exact dated values available on each point.
+- Keeps private exercise-selection and equipment constraints out of visible workout text while still applying them when the coach selects exercises.
+
 2.4.12 — August 17, 2026
 - Replaces the cramped “%ile” shorthand with the full, unambiguous “th percentile” label beneath eFTP and every power-radar value.
 
