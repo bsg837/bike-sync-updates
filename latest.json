@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.14/Bike-Sync-2.4.14-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.15/Bike-Sync-2.4.15-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "wLL/J0CEu9OM+i1toLAMjd8qKhm+fijMGqwJGWgx3EPb+HKlFsn1l89+wg0IHQRZNV9gtsHAEV+ifII0VLVhCg==",
-  "publishedAt" : "2026-08-19T04:08:28.323Z",
-  "releaseNotes" : "Bike Sync 2.4.14\n\n- Adds exact 1-second power and watts per kilogram to the season power radar.\n- Leaves the 1-second percentile line blank because Intervals.icu supplies age-group rankings from 5 seconds onward; Bike Sync does not substitute or invent a percentile.\n- Keeps ordinary automatic app updates password-free after the initial installation. Developer release signing is separate from the update that runs on an athlete's Mac.\n- Uses only one developer-identity signing operation per completed release build and a stable publisher helper, preventing the repeated release-time password cascade that occurred during 2.4.13.\n- Moves the separate saved connections into one app-owned Keychain vault. Existing connections migrate once, then future launches and updates open one stable record rather than six.",
-  "sha256" : "6e6b3dec2e93ceb55e1be89ff897769933ec42ab0c7779bd88d36d805cee08d8",
-  "version" : "2.4.14"
+  "packageSignature" : "4Uu5ppjbuwId+Sz9n0238hSfHV1z8A1VWSyEgrlf9fJbhYWCT14bgl8IvXjZkRkKXibmjp1QsMF8jWbf81zuCQ==",
+  "publishedAt" : "2026-08-19T04:53:00.354Z",
+  "releaseNotes" : "Bike Sync 2.4.15\n\n- Restores the missing 1-second polygon node in the season power radar.\n- Uses the published Cycling Analytics male 1-second power distribution for that node because Intervals.icu precomputes rankings only from 5 seconds onward.\n- Labels the 1-second percentile as approximate and identifies its all-men comparison group; all other nodes continue to use the selected Intervals.icu age group.\n- Replaces the large always-visible next-ride forecast with a compact today-through-Sunday weather strip.\n- Labels each day Morning, Evening, Any, or Indoor and separately recommends Bike Commute or Transit; only daylight windows with dry pavement, rain at or below 10%, temperatures from 40–90°F, and acceptable AQI qualify.\n- Shows each day's detailed temperature, perceived temperature, humidity, rain, cloud, wind, AQI, pavement, and best window on hover while keeping route-specific weather inside each planned ride's arrow expansion.\n- Uses the existing Strava connection to recommend a saved Illinois segment under 2 miles only when a consistent tailwind stays above 10 mph and within 15 degrees of its direction.",
+  "sha256" : "7166d62e0b5b95d9ea2c672ed6620007abd21dda4fd85d61e50661893ab2b677",
+  "version" : "2.4.15"
 }

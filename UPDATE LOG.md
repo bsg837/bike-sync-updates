@@ -1,5 +1,14 @@
 Bike Sync update log
 
+2.4.15 — August 19, 2026
+- Restores the missing 1-second polygon node in the season power radar.
+- Uses the published Cycling Analytics male 1-second power distribution for that node because Intervals.icu precomputes rankings only from 5 seconds onward.
+- Labels the 1-second percentile as approximate and identifies its all-men comparison group; all other nodes continue to use the selected Intervals.icu age group.
+- Replaces the large always-visible next-ride forecast with a compact today-through-Sunday weather strip.
+- Labels each day Morning, Evening, Any, or Indoor and separately recommends Bike Commute or Transit; only daylight windows with dry pavement, rain at or below 10%, temperatures from 40–90°F, and acceptable AQI qualify.
+- Shows each day's detailed temperature, perceived temperature, humidity, rain, cloud, wind, AQI, pavement, and best window on hover while keeping route-specific weather inside each planned ride's arrow expansion.
+- Uses the existing Strava connection to recommend a saved Illinois segment under 2 miles only when a consistent tailwind stays above 10 mph and within 15 degrees of its direction.
+
 2.4.14 — August 18, 2026
 - Adds exact 1-second power and watts per kilogram to the season power radar.
 - Leaves the 1-second percentile line blank because Intervals.icu supplies age-group rankings from 5 seconds onward; Bike Sync never substitutes or invents a percentile.
