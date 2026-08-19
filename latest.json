@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.13/Bike-Sync-2.4.13-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.14/Bike-Sync-2.4.14-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "AgA3PVkgiWJhsOrK2IQXUzqkVzeTnK92Q3TDeOwsErDA6JTOEX43VWvTTJ3wfyr+B0Hj69KSmuJQyYp8kd3nCg==",
-  "publishedAt" : "2026-08-19T03:08:08.191Z",
-  "releaseNotes" : "Bike Sync 2.4.13\n\n- Shows one-decimal watts per kilogram beside every watt value in the season power radar.\n- Uses lowercase `w` and `w/kg` in the eFTP headline.\n- Adds a hover graph to VO₂ max using a true 365-day Intervals.icu wellness history, with exact dated values available on each point.\n- Keeps private exercise-selection and equipment constraints out of visible workout text while still applying them when the coach selects exercises.",
-  "sha256" : "ae504cd6d730b4e7b48c4a843d10269509fab19ce2b50ae319d706cdb86d5756",
-  "version" : "2.4.13"
+  "packageSignature" : "wLL/J0CEu9OM+i1toLAMjd8qKhm+fijMGqwJGWgx3EPb+HKlFsn1l89+wg0IHQRZNV9gtsHAEV+ifII0VLVhCg==",
+  "publishedAt" : "2026-08-19T04:08:28.323Z",
+  "releaseNotes" : "Bike Sync 2.4.14\n\n- Adds exact 1-second power and watts per kilogram to the season power radar.\n- Leaves the 1-second percentile line blank because Intervals.icu supplies age-group rankings from 5 seconds onward; Bike Sync does not substitute or invent a percentile.\n- Keeps ordinary automatic app updates password-free after the initial installation. Developer release signing is separate from the update that runs on an athlete's Mac.\n- Uses only one developer-identity signing operation per completed release build and a stable publisher helper, preventing the repeated release-time password cascade that occurred during 2.4.13.\n- Moves the separate saved connections into one app-owned Keychain vault. Existing connections migrate once, then future launches and updates open one stable record rather than six.",
+  "sha256" : "6e6b3dec2e93ceb55e1be89ff897769933ec42ab0c7779bd88d36d805cee08d8",
+  "version" : "2.4.14"
 }

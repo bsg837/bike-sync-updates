@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.14 — August 18, 2026
+- Adds exact 1-second power and watts per kilogram to the season power radar.
+- Leaves the 1-second percentile line blank because Intervals.icu supplies age-group rankings from 5 seconds onward; Bike Sync never substitutes or invents a percentile.
+- Keeps ordinary automatic app updates password-free after the initial installation; release-building access to developer signing keys is now handled as a separate publisher workflow and is never part of an end user's update.
+- Reduces a release build to one developer-identity signing operation and reuses the stable publisher helper, eliminating the repeated password cascade caused by rebuilding and re-signing intermediate copies.
+- Consolidates saved service credentials into one app-owned Keychain vault. Legacy records are migrated once as they are used; subsequent launches and automatic updates open one stable vault instead of six separate Keychain items.
+
 2.4.13 — August 18, 2026
 - Shows one-decimal watts per kilogram beside every watt value in the season power radar.
 - Uses lowercase `w` and `w/kg` in the eFTP headline.
