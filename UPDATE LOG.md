@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.20 — August 21, 2026
+- Adds a local weekly Top 10 snapshot comparison so Bike Sync can alert when a segment that appeared in the prior complete Strava list is missing from the newest one.
+- Uses the athlete's authoritative signed-in Strava Top 10 page only through deliberate copy and paste; Bike Sync does not scrape the website or claim the unsupported public API can discover a current Top 20.
+- Prompts for the snapshot every Monday, retains prior snapshots privately on the Mac, and opens a missing segment for user-controlled review of the efforts now ahead.
+- Refuses to compare an empty or implausibly incomplete copied list, preventing a missed results page from generating a large false alarm.
+- Treats a missing Top 10 result only as a review prompt, never as evidence of invalid data, and never reports another athlete automatically.
+
 2.4.19 — August 21, 2026
 - Clarifies that leaderboard review covers every segment where the connected athlete ranks 2nd through 20th, regardless of whether the segment is starred; starred segments remain exclusive to the weather wind-target feature.
 - Renames the Monday action to “Recheck saved suspects” and explains that it re-evaluates the user-controlled queue rather than discovering new leaderboard positions.

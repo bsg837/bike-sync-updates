@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.19/Bike-Sync-2.4.19-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.20/Bike-Sync-2.4.20-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "Y8KAcOE/5QuuV98Rz25yxl/6v2lTYIoa0xZJcltWK/TLoGhGlrLDhMP5aipi2BjBlzzbqyGVcR32Su+nGmCdBQ==",
-  "publishedAt" : "2026-08-21T21:25:38.034Z",
-  "releaseNotes" : "Bike Sync 2.4.19\n\n- Clarifies that leaderboard review covers every segment where the connected athlete ranks 2nd through 20th, regardless of whether the segment is starred.\n- Renames the Monday action to “Recheck saved suspects” so it cannot be mistaken for automatic discovery.\n- Keeps personal review cases private and separate from the universal app and public installer.\n- Preserves missing power, heart-rate, cadence, age, weight, and wind information as neutral evidence.",
-  "sha256" : "a962b512dceae15be7b704d1096223f755335c5221621f6c396f0f9864061041",
-  "version" : "2.4.19"
+  "packageSignature" : "gXkbCKEIrUXl38tlkvmr6Vbx9Zx3VrCtvE7sh2T0nuMBGySiEJjmJWUBgzSSznMbPFmTaFtuDBxF/3DKfpDhDA==",
+  "publishedAt" : "2026-08-21T22:06:07.164Z",
+  "releaseNotes" : "Bike Sync 2.4.20\n\n- Adds a private weekly comparison of complete Strava Top 10 snapshots and alerts when a previously listed segment disappears.\n- Guides the user through copying each signed-in Top 10 results page; no Strava website scraping or unsupported background Top 20 discovery is performed.\n- Opens a lost Top 10 segment for user-controlled review of the efforts ahead and never treats a leaderboard change alone as evidence of invalid activity data.\n- Rejects empty or implausibly incomplete copied lists to prevent false mass-loss alerts.\n- Preserves existing leaderboard review data while adding the new snapshot history.",
+  "sha256" : "2ddc01dae59902c7dd9ae964f2ec2f0fa842473d1e06e0e4b0fcca5e5004402e",
+  "version" : "2.4.20"
 }
