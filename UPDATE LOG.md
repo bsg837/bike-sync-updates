@@ -1,5 +1,17 @@
 Bike Sync update log
 
+2.4.21 — August 21, 2026
+- Connects VeloViewer Pro through its user-generated segment CSV: Bike Sync imports every current outdoor Ride rank from 1st through 20th, indexes non-KOM positions for one-click Strava review, and uses the Top 10 subset for weekly loss alerts.
+- Opens the connected athlete's VeloViewer segment page, stores only the minimal local rank/segment metadata needed for review, excludes virtual segments, and refuses an implausibly incomplete export rather than generating false Top 10 losses.
+- Keeps the existing Strava copy-and-paste snapshot as a fallback. Bike Sync does not automate VeloViewer web access, and no VeloViewer password or browser session is stored in the app.
+- Makes Intervals-to-Strava FTP synchronization visible in Training status, reports the prior and new Strava FTP after a correction, and clearly identifies a local Strava connection that needs repair instead of silently presenting the rest of the dashboard as current.
+- Continues retrying the Strava FTP write on every refresh and redacts Strava secrets and OAuth tokens from sanitized diagnostics.
+- Adds an optional supported-API monitor for flags on the connected athlete's own Strava activities; it never reads or evaluates another athlete's data.
+- Checks recent activities during the normal 15-minute refresh and performs one complete-history pass per day so an older activity flagged later can still be found without repeatedly downloading the full history.
+- Displays a red menu-bar alert and Review badge for a newly flagged activity, links directly to the activity and Strava's resolution instructions, and preserves acknowledgement without claiming the flag is resolved.
+- Removes the in-app flag record after a later successful Strava check confirms the activity is no longer flagged, while network failures leave the last verified state intact.
+- Keeps the feature off in a clean portable profile, enables it in Bradley's personal profile, and requests the supported `activity:read` scope during the one-time Strava reconnection.
+
 2.4.20 — August 21, 2026
 - Adds a local weekly Top 10 snapshot comparison so Bike Sync can alert when a segment that appeared in the prior complete Strava list is missing from the newest one.
 - Uses the athlete's authoritative signed-in Strava Top 10 page only through deliberate copy and paste; Bike Sync does not scrape the website or claim the unsupported public API can discover a current Top 20.

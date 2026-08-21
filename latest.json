@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.20/Bike-Sync-2.4.20-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.21/Bike-Sync-2.4.21-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "gXkbCKEIrUXl38tlkvmr6Vbx9Zx3VrCtvE7sh2T0nuMBGySiEJjmJWUBgzSSznMbPFmTaFtuDBxF/3DKfpDhDA==",
-  "publishedAt" : "2026-08-21T22:06:07.164Z",
-  "releaseNotes" : "Bike Sync 2.4.20\n\n- Adds a private weekly comparison of complete Strava Top 10 snapshots and alerts when a previously listed segment disappears.\n- Guides the user through copying each signed-in Top 10 results page; no Strava website scraping or unsupported background Top 20 discovery is performed.\n- Opens a lost Top 10 segment for user-controlled review of the efforts ahead and never treats a leaderboard change alone as evidence of invalid activity data.\n- Rejects empty or implausibly incomplete copied lists to prevent false mass-loss alerts.\n- Preserves existing leaderboard review data while adding the new snapshot history.",
-  "sha256" : "2ddc01dae59902c7dd9ae964f2ec2f0fa842473d1e06e0e4b0fcca5e5004402e",
-  "version" : "2.4.20"
+  "packageSignature" : "vyTNa71LqItnwPGKKF+FCsPm+XxY+XiI1od7kuFueK07jfnrxTzpHBX2460IySfqhUvitqMSX8gRKR67Dg5NAg==",
+  "publishedAt" : "2026-08-21T23:11:16.359Z",
+  "releaseNotes" : "Bike Sync 2.4.21\n\n- Adds a VeloViewer Pro CSV import that discovers all current outdoor Ride positions from 1st through 20th, indexes non-KOM segments for one-click review, and updates the weekly Top 10 comparison without scraping either service.\n- FTP synchronization is now visible directly in Training status. When Strava differs from Intervals' athlete-wide eFTP, Bike Sync reports the old and corrected values; if local Strava authorization is unavailable, the app shows a clear repair message and keeps retrying.\n- Adds an optional supported Strava API monitor for flags on the connected athlete's own activities.\n- Checks recent activities during normal refreshes and the complete history once daily, without storing non-flagged activity history.\n- Shows a red menu-bar and Review alert with direct links to the flagged activity and Strava's resolution instructions.\n- Preserves the last verified status through network failures and removes resolved flags only after Strava confirms the change.\n- Keeps the portable default off and requests `activity:read` during the one-time Strava connection used for this feature.",
+  "sha256" : "8e27aca1f065ab58d3e101a21201c458d8adeed142d3975971554cd1b6a8ff6c",
+  "version" : "2.4.21"
 }
