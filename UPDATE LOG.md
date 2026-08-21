@@ -1,5 +1,15 @@
 Bike Sync update log
 
+2.4.18 — August 21, 2026
+- Adds a persistent, user-controlled leaderboard review queue with saved segment, athlete, rank, date, wind, age-group, weight-class, sensor, route, group-ride, and rider-history evidence.
+- Separates affirmative evidence, independent concerns, and missing or ambiguous data so missing power, heart rate, cadence, demographics, or wind never count as evidence of invalid activity data.
+- Adds evidence-specific reasons and a Prepare Strava report action that copies neutral report text and opens the original activity; Bike Sync never pastes, submits, or flags an activity automatically.
+- Re-evaluates saved review items every Monday at 7:00 AM, catches up after sleep or shutdown, displays an in-app Review badge and menu-bar alert dot, and requests attention only when an item still warrants inspection.
+- Expands the review rubric to include impossible route geometry, GPS sampling and jumps, vehicle-like continuation after a stop, duplicates, wrong activity type or motor assistance, measured-power conflicts, physiological inconsistencies, isolated speed spikes, limiter-like speed, wind and terrain, drafting, corroborating riders, and segment-geometry risk.
+- Makes recovery setup wearable-neutral: users can select Polar, WHOOP, Garmin, Oura, Suunto, COROS, or another Intervals.icu-supported provider, while Bike Sync consumes only the normalized wellness fields that are actually available.
+- Keeps optional direct Polar detail separate from the generic Intervals.icu wearable path, so another user's app does not imply that Polar is required.
+- Adds a stable public download-and-support page link in Help and preserves the single bicycle-icon Bike Sync application as the installed product.
+
 2.4.17 — August 21, 2026
 - Adds a Leaderboard Review screen that opens the user's own Strava Top 10 and KOM/QOM pages and provides a conservative evidence checklist for occasional cleanup.
 - Treats plausible recorded power, heart rate, route traces, and surrounding riding as evidence supporting a legitimate effort; missing sensors alone remain neutral.

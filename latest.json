@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.17/Bike-Sync-2.4.17-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.18/Bike-Sync-2.4.18-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "hYm9Mi3iG8jM4k0jWah5Keslc5gkjQuxPsdvCB0zEVJcJ/0ZVBIUCnsj6g0CnM6c4Rz44jDTrcgB69eRwW86AA==",
-  "publishedAt" : "2026-08-21T19:09:24.910Z",
-  "releaseNotes" : "Bike Sync 2.4.17\n\n- Adds a Leaderboard Review screen that opens the user's own Strava Top 10 and KOM/QOM pages and provides a conservative evidence checklist for occasional cleanup.\n- Treats plausible recorded power, heart rate, route traces, and surrounding riding as evidence supporting a legitimate effort; missing sensors alone remain neutral.\n- Escalates only strong concerns such as GPS jumps, vehicle-like continuation, motor assistance or a wrong activity type, duplicate public uploads, or a performance that conflicts with recorded power and conditions.\n- Keeps the final decision entirely with the user: Bike Sync neither scrapes nor stores other athletes' leaderboard data and has no automatic Report button.\n- Links directly to Strava's current leaderboard guidelines and reporting instructions.",
-  "sha256" : "02763dac8ce0cea1c52e201b83f0908261f0e3bbe0d12e323a62187d12520c52",
-  "version" : "2.4.17"
+  "packageSignature" : "Gir72rAdwtwo9n4n3aqqjx8T4Iead1ZWJmFsM8rSS1uiTKt+MDZekfZ4LA5m45w2QPwXgqmBjCSi+kNRHXdCBg==",
+  "publishedAt" : "2026-08-21T20:45:28.227Z",
+  "releaseNotes" : "Bike Sync 2.4.18\n\n- Adds a persistent leaderboard review queue with the full route, sensor, wind, terrain, group-ride, rider-history, and ambiguity rubric.\n- Runs a permission-free Monday-morning review of saved cases and shows an alert only when an effort still needs inspection.\n- Prepares neutral, evidence-specific Strava report text without submitting or flagging anything automatically.\n- Adds wearable-neutral recovery setup for Polar, WHOOP, Garmin, Oura, Suunto, COROS, and other Intervals.icu-supported sources; missing metrics remain hidden and neutral.\n- Adds a stable public download-and-support page in Help and keeps the installed product as one bicycle-icon Bike Sync app.",
+  "sha256" : "fd2cab7d4ba75f86f1a4e2b0469b0499fce4322d69f7025c6d2ab80f122008d4",
+  "version" : "2.4.18"
 }
