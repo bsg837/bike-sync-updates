@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.16/Bike-Sync-2.4.16-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.17/Bike-Sync-2.4.17-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "O6IZHaTSB/7BjLDKlZUrGvhSHg4HGTb+VBCKXsDuOKKhPAeJZDFbK6m7EPARQjCuVqPP94kkaNI4NhxF4+kBDA==",
-  "publishedAt" : "2026-08-19T21:32:02.303Z",
-  "releaseNotes" : "Bike Sync 2.4.16\n\n- Gives Bike Coach one reusable read-only batch request for the exact Intervals.icu streams from as many as 25 activities, including Di2 front gear, rear gear, ratio, and pedaling gear code when recorded.\n- Lets read-only activity-history queries span up to five years by safely dividing them into one-year Intervals.icu calls, so recurring rides and long-distance rides can be found without repeated manual requests.\n- Accepts the earlier `resource` field as a backwards-compatible alias for `query_resource`, preventing a harmless request-format mismatch from derailing a coaching analysis.\n- Requires Bike Coach to report exact stream availability per activity and never pretend cadence or speed reveals an exact gear when the FIT file lacks Di2 telemetry.",
-  "sha256" : "37be33f77745f7744522bc19528f9cb35a6a7803305455563cc2827488f8fcf3",
-  "version" : "2.4.16"
+  "packageSignature" : "hYm9Mi3iG8jM4k0jWah5Keslc5gkjQuxPsdvCB0zEVJcJ/0ZVBIUCnsj6g0CnM6c4Rz44jDTrcgB69eRwW86AA==",
+  "publishedAt" : "2026-08-21T19:09:24.910Z",
+  "releaseNotes" : "Bike Sync 2.4.17\n\n- Adds a Leaderboard Review screen that opens the user's own Strava Top 10 and KOM/QOM pages and provides a conservative evidence checklist for occasional cleanup.\n- Treats plausible recorded power, heart rate, route traces, and surrounding riding as evidence supporting a legitimate effort; missing sensors alone remain neutral.\n- Escalates only strong concerns such as GPS jumps, vehicle-like continuation, motor assistance or a wrong activity type, duplicate public uploads, or a performance that conflicts with recorded power and conditions.\n- Keeps the final decision entirely with the user: Bike Sync neither scrapes nor stores other athletes' leaderboard data and has no automatic Report button.\n- Links directly to Strava's current leaderboard guidelines and reporting instructions.",
+  "sha256" : "02763dac8ce0cea1c52e201b83f0908261f0e3bbe0d12e323a62187d12520c52",
+  "version" : "2.4.17"
 }

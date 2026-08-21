@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.17 — August 21, 2026
+- Adds a Leaderboard Review screen that opens the user's own Strava Top 10 and KOM/QOM pages and provides a conservative evidence checklist for occasional cleanup.
+- Treats plausible recorded power, heart rate, route traces, and surrounding riding as evidence supporting a legitimate effort; missing sensors alone remain neutral.
+- Escalates only strong concerns such as GPS jumps, vehicle-like continuation, motor assistance or a wrong activity type, duplicate public uploads, or a performance that conflicts with recorded power and conditions.
+- Keeps the final decision entirely with the user: Bike Sync neither scrapes nor stores other athletes' leaderboard data and has no automatic Report button.
+- Links directly to Strava's current leaderboard guidelines and reporting instructions.
+
 2.4.16 — August 19, 2026
 - Gives Bike Coach one reusable read-only batch request for the exact Intervals.icu streams from as many as 25 activities, including Di2 front gear, rear gear, ratio, and pedaling gear code when recorded.
 - Lets read-only activity-history queries span up to five years by safely dividing them into one-year Intervals.icu calls, so recurring rides and long-distance rides can be found without repeated manual requests.
