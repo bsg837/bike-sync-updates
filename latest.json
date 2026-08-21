@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.22/Bike-Sync-2.4.22-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.23/Bike-Sync-2.4.23-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "nk4uLEL7RUIE8vYE3ivwDaSkag1Wy/G584ccErvMlgVOKqYB9TfBmxFPej7KkDxG0gF3vzMGURL3htLQ0qfWDQ==",
-  "publishedAt" : "2026-08-21T23:38:03.685Z",
-  "releaseNotes" : "Bike Sync 2.4.22\n\n- Fixes VeloViewer CSV import for the line endings used by its real completed export.\n- Shows current rank, original rank, rank change, and change date in the private Top 20 review index.\n- Uses starred outdoor segments from the VeloViewer export when Strava returns no saved segments, restoring weather-based segment targets without storing VeloViewer credentials or automating its website.\n- Keeps current-position comparison conservative: ranks 1–10 form the weekly loss baseline, ranks 2–20 are available for review, and rank movement alone is never evidence that another athlete's effort is invalid.\n- Retains the visible Intervals eFTP-to-Strava FTP repair and supported own-activity flag monitor introduced in 2.4.21.",
-  "sha256" : "e8e3dbbe9b2bd9d59e243a7c8a3bbfab979b32de9a3a8a434f6f69b51b25b203",
-  "version" : "2.4.22"
+  "packageSignature" : "9c1B4cXarkpG6L1kWfHhMjUztrAMia8QscSqSk8TAq4Sey6NRkVVsU+G6p2hFvzh3gwPJxxWrorhtdJVhP6IAw==",
+  "publishedAt" : "2026-08-21T23:59:24.526Z",
+  "releaseNotes" : "Bike Sync 2.4.23\n\n- Stops repeated automatic reinstalls by reading Bike Sync's version from the installed app rather than an obsolete hard-coded value.\n- Rejects any downloaded app whose embedded version is not both newer and identical to the signed update manifest.\n- Makes publisher installs race-safe by pausing the keep-running supervisor and relaunching only after the public update feed is current.\n- Relocates the duplicate updater backups created by the defect out of Applications without deleting them.\n- Retains the completed VeloViewer Top 20 index, Top 10 baseline, starred weather segments, and reviewed-case state from 2.4.22.",
+  "sha256" : "f7f3e3b5886c9eb6316b523b4c66f566f0c83cad5b31a694de83f8f7b65a110d",
+  "version" : "2.4.23"
 }
