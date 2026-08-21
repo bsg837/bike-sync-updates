@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.18/Bike-Sync-2.4.18-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.19/Bike-Sync-2.4.19-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "Gir72rAdwtwo9n4n3aqqjx8T4Iead1ZWJmFsM8rSS1uiTKt+MDZekfZ4LA5m45w2QPwXgqmBjCSi+kNRHXdCBg==",
-  "publishedAt" : "2026-08-21T20:45:28.227Z",
-  "releaseNotes" : "Bike Sync 2.4.18\n\n- Adds a persistent leaderboard review queue with the full route, sensor, wind, terrain, group-ride, rider-history, and ambiguity rubric.\n- Runs a permission-free Monday-morning review of saved cases and shows an alert only when an effort still needs inspection.\n- Prepares neutral, evidence-specific Strava report text without submitting or flagging anything automatically.\n- Adds wearable-neutral recovery setup for Polar, WHOOP, Garmin, Oura, Suunto, COROS, and other Intervals.icu-supported sources; missing metrics remain hidden and neutral.\n- Adds a stable public download-and-support page in Help and keeps the installed product as one bicycle-icon Bike Sync app.",
-  "sha256" : "fd2cab7d4ba75f86f1a4e2b0469b0499fce4322d69f7025c6d2ab80f122008d4",
-  "version" : "2.4.18"
+  "packageSignature" : "Y8KAcOE/5QuuV98Rz25yxl/6v2lTYIoa0xZJcltWK/TLoGhGlrLDhMP5aipi2BjBlzzbqyGVcR32Su+nGmCdBQ==",
+  "publishedAt" : "2026-08-21T21:25:38.034Z",
+  "releaseNotes" : "Bike Sync 2.4.19\n\n- Clarifies that leaderboard review covers every segment where the connected athlete ranks 2nd through 20th, regardless of whether the segment is starred.\n- Renames the Monday action to “Recheck saved suspects” so it cannot be mistaken for automatic discovery.\n- Keeps personal review cases private and separate from the universal app and public installer.\n- Preserves missing power, heart-rate, cadence, age, weight, and wind information as neutral evidence.",
+  "sha256" : "a962b512dceae15be7b704d1096223f755335c5221621f6c396f0f9864061041",
+  "version" : "2.4.19"
 }

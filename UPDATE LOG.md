@@ -1,5 +1,10 @@
 Bike Sync update log
 
+2.4.19 — August 21, 2026
+- Clarifies that leaderboard review covers every segment where the connected athlete ranks 2nd through 20th, regardless of whether the segment is starred; starred segments remain exclusive to the weather wind-target feature.
+- Renames the Monday action to “Recheck saved suspects” and explains that it re-evaluates the user-controlled queue rather than discovering new leaderboard positions.
+- Keeps reviewed athlete cases in private local state instead of hard-coding them into the portable app or public installer.
+
 2.4.18 — August 21, 2026
 - Adds a persistent, user-controlled leaderboard review queue with saved segment, athlete, rank, date, wind, age-group, weight-class, sensor, route, group-ride, and rider-history evidence.
 - Separates affirmative evidence, independent concerns, and missing or ambiguous data so missing power, heart rate, cadence, demographics, or wind never count as evidence of invalid activity data.
