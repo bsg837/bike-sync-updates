@@ -1,5 +1,11 @@
 Bike Sync update log
 
+2.4.22 — August 21, 2026
+- Correctly parses VeloViewer's Windows-style CSV line endings; the real completed export is covered by an end-to-end regression test rather than only a small hand-written fixture.
+- Displays each imported segment's current position, original position, position change, and VeloViewer change date while treating those values as review context rather than evidence of invalid activity.
+- Imports every starred outdoor segment from the same completed VeloViewer export and uses it as the weather-target fallback when Strava's newer API returns an empty saved-segment list.
+- Restores 22 starred Ride segments for Bradley's weather engine, including 19 under two miles, while preserving all three existing manual review cases and creating a 17-segment Top 10 baseline from 24 current Top 20 positions.
+
 2.4.21 — August 21, 2026
 - Connects VeloViewer Pro through its user-generated segment CSV: Bike Sync imports every current outdoor Ride rank from 1st through 20th, indexes non-KOM positions for one-click Strava review, and uses the Top 10 subset for weekly loss alerts.
 - Opens the connected athlete's VeloViewer segment page, stores only the minimal local rank/segment metadata needed for review, excludes virtual segments, and refuses an implausibly incomplete export rather than generating false Top 10 losses.

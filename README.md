@@ -2,6 +2,8 @@
 
 Bike Sync is a customizable menu-bar companion for Intervals.icu. It supports Intel and Apple-silicon Macs and contains no athlete profile, credentials, routes, health data, or private coaching information.
 
+Optional integrations include Intervals.icu, Strava, VeloViewer's user-generated segment CSV, supported wellness providers through Intervals.icu, and a private ChatGPT coaching bridge. Clean installations keep personal automations off until the user configures them.
+
 ## Download
 
 [Download the latest Bike Sync installer](https://github.com/bsg837/bike-sync-updates/releases/latest)

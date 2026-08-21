@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.21/Bike-Sync-2.4.21-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.22/Bike-Sync-2.4.22-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "vyTNa71LqItnwPGKKF+FCsPm+XxY+XiI1od7kuFueK07jfnrxTzpHBX2460IySfqhUvitqMSX8gRKR67Dg5NAg==",
-  "publishedAt" : "2026-08-21T23:11:16.359Z",
-  "releaseNotes" : "Bike Sync 2.4.21\n\n- Adds a VeloViewer Pro CSV import that discovers all current outdoor Ride positions from 1st through 20th, indexes non-KOM segments for one-click review, and updates the weekly Top 10 comparison without scraping either service.\n- FTP synchronization is now visible directly in Training status. When Strava differs from Intervals' athlete-wide eFTP, Bike Sync reports the old and corrected values; if local Strava authorization is unavailable, the app shows a clear repair message and keeps retrying.\n- Adds an optional supported Strava API monitor for flags on the connected athlete's own activities.\n- Checks recent activities during normal refreshes and the complete history once daily, without storing non-flagged activity history.\n- Shows a red menu-bar and Review alert with direct links to the flagged activity and Strava's resolution instructions.\n- Preserves the last verified status through network failures and removes resolved flags only after Strava confirms the change.\n- Keeps the portable default off and requests `activity:read` during the one-time Strava connection used for this feature.",
-  "sha256" : "8e27aca1f065ab58d3e101a21201c458d8adeed142d3975971554cd1b6a8ff6c",
-  "version" : "2.4.21"
+  "packageSignature" : "nk4uLEL7RUIE8vYE3ivwDaSkag1Wy/G584ccErvMlgVOKqYB9TfBmxFPej7KkDxG0gF3vzMGURL3htLQ0qfWDQ==",
+  "publishedAt" : "2026-08-21T23:38:03.685Z",
+  "releaseNotes" : "Bike Sync 2.4.22\n\n- Fixes VeloViewer CSV import for the line endings used by its real completed export.\n- Shows current rank, original rank, rank change, and change date in the private Top 20 review index.\n- Uses starred outdoor segments from the VeloViewer export when Strava returns no saved segments, restoring weather-based segment targets without storing VeloViewer credentials or automating its website.\n- Keeps current-position comparison conservative: ranks 1–10 form the weekly loss baseline, ranks 2–20 are available for review, and rank movement alone is never evidence that another athlete's effort is invalid.\n- Retains the visible Intervals eFTP-to-Strava FTP repair and supported own-activity flag monitor introduced in 2.4.21.",
+  "sha256" : "e8e3dbbe9b2bd9d59e243a7c8a3bbfab979b32de9a3a8a434f6f69b51b25b203",
+  "version" : "2.4.22"
 }
