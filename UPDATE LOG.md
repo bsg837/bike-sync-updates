@@ -1,5 +1,11 @@
 Bike Sync update log
 
+2.4.25 — August 21, 2026
+- Gives Bike Coach the connected athlete's exact current-season (`s0`) power curve in both ordinary and athlete-scoped coaching reports.
+- Retains the 42-day, one-year, and all-time curves so coaching can distinguish current-season ability from recent form, durability, and historical bests.
+- Records all four requested periods in the report's coverage section and adds a regression test that fails if current-season data is omitted again.
+- Keeps the visible power radar and the private coaching export on the same Intervals.icu current-season source.
+
 2.4.24 — August 21, 2026
 - Requests Strava's detailed-profile read scope together with profile write access so Bike Sync can both update FTP and verify the returned athlete-wide value.
 - Preserves the granted Strava scope across token refreshes, identifies an older authorization that needs one reconnection, and stops mislabeling that condition as a missing client setup.

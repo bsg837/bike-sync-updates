@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.24/Bike-Sync-2.4.24-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.25/Bike-Sync-2.4.25-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "8yBfYAUiG0+TQqt2ChPG9TfoNhPnn8vxt2LHLEox9Up7GzFxiPF0eweBxXxVU65KnL2jkkwVFo/x1ZWP6QtkDw==",
-  "publishedAt" : "2026-08-22T00:14:17.413Z",
-  "releaseNotes" : "Bike Sync 2.4.24\n\n- Adds the Strava detailed-profile read scope needed to verify athlete-wide FTP after a profile write.\n- Preserves granted scopes across Strava token refreshes and gives a specific one-time reconnection message for older authorizations.\n- Uses Strava's current API base URL for profile, activity, and starred-segment requests.\n- Publishes first so Bradley's Mac and every other installation use the same signed automatic-update path.\n- Keeps future automatic-update rollback copies out of Applications.",
-  "sha256" : "c276cdfa317fee9de54104e3a7907600b9e2dc81d0f5e0087935214ac96934df",
-  "version" : "2.4.24"
+  "packageSignature" : "OuKkQeD04xR6Yjh6L8BuT/ndaX+bUaZcqPvXbH1JwjWXQxNeHNQailYlVmU8HPg4vxCS6NpQt8UyBJbaYw0bBA==",
+  "publishedAt" : "2026-08-22T03:23:45.049Z",
+  "releaseNotes" : "Bike Sync 2.4.25\n\n- Gives Bike Coach the connected athlete's exact current-season (`s0`) power curve in both ordinary and athlete-scoped coaching reports.\n- Keeps the existing 42-day, one-year, and all-time curves for recency, durability, and historical context instead of replacing them.\n- Makes the report's data-coverage record explicitly verify all four requested periods: current season, 42 days, one year, and all time.\n- Adds a regression test that fails if the current-season curve disappears from a future coaching export.\n- Continues to use the current-season curve for the visible power radar, so the menu and Bike Coach now share the same season source.",
+  "sha256" : "0854c18148492b8601e2bcdb703e6963dccf2497981cf421050cd13f09748612",
+  "version" : "2.4.25"
 }
