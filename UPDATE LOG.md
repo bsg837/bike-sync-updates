@@ -1,5 +1,12 @@
 Bike Sync update log
 
+2.4.24 — August 21, 2026
+- Requests Strava's detailed-profile read scope together with profile write access so Bike Sync can both update FTP and verify the returned athlete-wide value.
+- Preserves the granted Strava scope across token refreshes, identifies an older authorization that needs one reconnection, and stops mislabeling that condition as a missing client setup.
+- Uses Strava's current `api-v3.strava.com` API base announced in the June 2026 developer changelog while keeping OAuth authorization on Strava's documented web endpoint.
+- Ships through the public update feed before Bradley's running copy updates, exercising the same signed automatic-update path used by every other installation.
+- Stores future automatic-update rollback copies in Bike Sync's application-support recovery folder rather than cluttering Applications.
+
 2.4.23 — August 21, 2026
 - Fixes a version-reporting defect that could make the automatic updater repeatedly reinstall the current release and create duplicate backup applications.
 - Reads the running version from the installed app bundle, rejects any downloaded app whose embedded version does not exactly match a newer published manifest, and verifies this behavior with a dedicated regression test.

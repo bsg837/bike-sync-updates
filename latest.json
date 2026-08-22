@@ -1,9 +1,9 @@
 {
-  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.23/Bike-Sync-2.4.23-Automatic-Update.zip",
+  "downloadURL" : "https://github.com/bsg837/bike-sync-updates/releases/download/v2.4.24/Bike-Sync-2.4.24-Automatic-Update.zip",
   "minimumMacOS" : "13.0",
-  "packageSignature" : "9c1B4cXarkpG6L1kWfHhMjUztrAMia8QscSqSk8TAq4Sey6NRkVVsU+G6p2hFvzh3gwPJxxWrorhtdJVhP6IAw==",
-  "publishedAt" : "2026-08-21T23:59:24.526Z",
-  "releaseNotes" : "Bike Sync 2.4.23\n\n- Stops repeated automatic reinstalls by reading Bike Sync's version from the installed app rather than an obsolete hard-coded value.\n- Rejects any downloaded app whose embedded version is not both newer and identical to the signed update manifest.\n- Makes publisher installs race-safe by pausing the keep-running supervisor and relaunching only after the public update feed is current.\n- Relocates the duplicate updater backups created by the defect out of Applications without deleting them.\n- Retains the completed VeloViewer Top 20 index, Top 10 baseline, starred weather segments, and reviewed-case state from 2.4.22.",
-  "sha256" : "f7f3e3b5886c9eb6316b523b4c66f566f0c83cad5b31a694de83f8f7b65a110d",
-  "version" : "2.4.23"
+  "packageSignature" : "8yBfYAUiG0+TQqt2ChPG9TfoNhPnn8vxt2LHLEox9Up7GzFxiPF0eweBxXxVU65KnL2jkkwVFo/x1ZWP6QtkDw==",
+  "publishedAt" : "2026-08-22T00:14:17.413Z",
+  "releaseNotes" : "Bike Sync 2.4.24\n\n- Adds the Strava detailed-profile read scope needed to verify athlete-wide FTP after a profile write.\n- Preserves granted scopes across Strava token refreshes and gives a specific one-time reconnection message for older authorizations.\n- Uses Strava's current API base URL for profile, activity, and starred-segment requests.\n- Publishes first so Bradley's Mac and every other installation use the same signed automatic-update path.\n- Keeps future automatic-update rollback copies out of Applications.",
+  "sha256" : "c276cdfa317fee9de54104e3a7907600b9e2dc81d0f5e0087935214ac96934df",
+  "version" : "2.4.24"
 }
